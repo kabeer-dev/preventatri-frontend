@@ -52,6 +52,9 @@ export const setSocket =
 
     const socket = socketIOClient(ENDPOINT, {
       withCredentials: true,
+
+      // Next rewrites proxy long-polling but not websocket upgrades.
+      transports: ['polling'],
       reconnection: true,
       reconnectionDelay: 1000,
       reconnectionDelayMax: 5000,

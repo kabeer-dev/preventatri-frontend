@@ -41,6 +41,21 @@ const nextConfig = {
 
     return config;
   },
+
+  // The browser talks only to this host, so the auth cookie stays first-party.
+  async rewrites() {
+    const backendUrl = process.env.NEXT_PUBLIC_SERVER_URL;
+
+    if (!backendUrl) return [];
+
+    return [
+      {source: '/api/v1/:path*', destination: `${backendUrl}/api/v1/:path*`},
+      {
+        source: '/socket.io/:path*',
+        destination: `${backendUrl}/socket.io/:path*`,
+      },
+    ];
+  },
   images: {
     unoptimized: !isProduction,
 
