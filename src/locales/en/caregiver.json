@@ -1,0 +1,242 @@
+{
+  "caregiverPortal": {
+    "nav": {
+      "today": "Today",
+      "patients": "Patients",
+      "activity": "Activity",
+      "notifications": "Notifications",
+      "me": "Me",
+      "lateBadge": "{{count}} late",
+      "raiseRedFlag": "Raise a red flag",
+      "raiseRedFlagHint": "outside a checklist"
+    },
+    "greeting": {
+      "morning": "Good morning, {{name}}",
+      "afternoon": "Good afternoon, {{name}}",
+      "evening": "Good evening, {{name}}"
+    },
+    "today": {
+      "title": "Today",
+      "counts": {
+        "checklists": "pending assessments",
+        "sent": "sent",
+        "late": "late"
+      },
+      "late": {
+        "start": "Start now",
+        "showAll": "Show all {{count}} late",
+        "showFewer": "Show fewer"
+      },
+      "upNext": {
+        "title": "Up next",
+        "due": "Today",
+        "empty": "Nothing else is due today.",
+        "subtitle": "in visit order"
+      },
+      "doneToday": {
+        "title": "Done today",
+        "sent": "Sent",
+        "empty": "You have not sent a checklist yet today."
+      },
+      "table": {
+        "due": "Due",
+        "patient": "Patient",
+        "checklists": "Checklists due",
+        "notes": "Notes",
+        "open": "Open",
+        "noNote": "No note"
+      },
+      "allClear": "Nothing is due today. Well done."
+    },
+    "patients": {
+      "workloadLoading": "Checking what is due",
+      "workloadError": "Could not check what is due",
+      "assigned": "{{count}} assigned to you",
+      "search": "Search by name",
+      "dueToday": "{{checklist}} due today",
+      "countDueToday": "{{count}} checklists due today",
+      "lateLine": "{{checklist}} late",
+      "countLate": "{{count}} checklists late",
+      "lateChip": "Late",
+      "nothingDue": "Nothing due today",
+      "empty": "No patients are assigned to you yet.",
+      "noMatch": "No patient matches that name."
+    },
+    "patient": {
+      "back": "Today",
+      "assignmentNote": "Assignment note",
+      "assessments": "Assessments for this patient",
+      "state": {
+        "late": "Late · was due {{date}}",
+        "dueToday": "Due today",
+        "sent": "Sent {{time}}",
+        "next": "Next {{date}}"
+      },
+      "questionCount": "{{count}} q",
+      "start": "Start {{checklist}}",
+      "empty": "Nothing is due for this patient today.",
+      "careTeamYou": "Caregiver (you)",
+      "submissions": "Submissions",
+      "submissionsEmpty": "No checklist has been sent for this patient yet.",
+      "redFlags": "Red flags",
+      "redFlagsEmpty": "No red flag has been raised for this patient yet.",
+      "redFlagDescription": "What the nurse was told"
+    },
+    "checklist": {
+      "questions": "{{count}} questions · about {{minutes}} min"
+    },
+    "error": {
+      "title": "We could not load this",
+      "message": "Check your connection and try again.",
+      "retry": "Try again"
+    },
+    "backToToday": "Back to Today"
+  },
+  "caregiverChecklist": {
+    "saveAndExit": "Exit",
+    "save": "Save",
+    "goToSummary": "Go to summary",
+    "assignmentNote": "Assignment note",
+    "required": "Answer this one before you go on.",
+    "progress": {
+      "position": "{{current}} of {{total}}",
+      "answered": "{{answered}} of {{total}} answered",
+      "sectionPosition": "{{section}} · question {{current}} of {{total}}",
+      "jump": "Go to question",
+      "hint": "Tap any segment to jump to that question"
+    },
+    "rail": {
+      "goTo": "Go to question {{number}}: {{title}}"
+    },
+    "comment": {
+      "placeholder": "Anything the nurse should know",
+      "hint": "Optional. The nurse sees comments and photos next to the answer."
+    },
+    "photo": {
+      "attach": "Add a photo",
+      "remove": "Remove photo {{number}}"
+    },
+    "closed": {
+      "title": "This checklist can no longer be sent."
+    },
+    "unavailable": {
+      "title": "This checklist did not load",
+      "message": "We could not load its questions. Go back and open it again."
+    },
+    "summary": {
+      "heading": "Check your answers",
+      "subtitle": "Tap any row to change it. You can't edit after sending.",
+      "back": "Back",
+      "backToQuestions": "Back to questions",
+      "backToQuestionsPhone": "Questions",
+      "change": "Change",
+      "submit": "Submit assessment",
+      "submitPhone": "Submit",
+      "noEdit": "You can't edit after sending",
+      "notAnswered": "Not answered",
+      "photos_one": "1 photo",
+      "photos_other": "{{count}} photos",
+      "blocked_one": "One question still needs an answer.",
+      "blocked_other": "{{count}} questions still need an answer."
+    },
+    "sent": {
+      "title": "Sent to the nurse",
+      "line": "{{checklist}} for {{patient}}, {{time}}.",
+      "reassurance": "If anything needs attention the nurse will be in touch.",
+      "nextFor": "Next for {{patient}}"
+    },
+    "exit": {
+      "title": "Leave this checklist?",
+      "body": "Your answers will not be saved.",
+      "confirm": "Leave",
+      "cancel": "Keep going"
+    }
+  },
+  "caregiverRedFlag": {
+    "title": "Raise a red flag",
+    "shortTitle": "Red flag",
+    "subtitle": "goes straight to the patient's care team",
+    "intro": "Goes straight to the patient's care team.",
+    "patient": "Patient",
+    "change": "Change",
+    "whatsWrong": "What's wrong",
+    "otherReason": "Say what is wrong",
+    "otherReasonPlaceholder": "A few words the nurse will read first",
+    "tellMore": "Tell the nurse more",
+    "tellMorePlaceholder": "What you can see, and what you have already done",
+    "photos": "Photos",
+    "photosPrompt": "Add a photo or",
+    "browse": "browse",
+    "voiceNote": "Voice note",
+    "send": "Send red flag now",
+    "cancel": "Cancel",
+    "close": "Close",
+    "sent": {
+      "title": "The nurse has it",
+      "line": "Stay with {{patient}}. The nurse will be in touch."
+    }
+  },
+  "caregiverNotifications": {
+    "subtitle": "Updates about your patients and your work"
+  },
+  "caregiverActivity": {
+    "subtitle": "What you sent and what happened after",
+    "redFlag": "Red flag",
+    "view": "View",
+    "allPatients": "All patients",
+    "filter": {
+      "patient": "Filter by patient",
+      "range": "Filter by time",
+      "kind": "Filter by kind"
+    },
+    "lastDays": "Last {{count}} days",
+    "empty": "Nothing sent yet.",
+    "kind": {
+      "all": "All",
+      "checklists": "Checklists",
+      "redFlags": "Red flags"
+    },
+    "day": {
+      "today": "Today",
+      "yesterday": "Yesterday"
+    },
+    "detail": {
+      "sent": "Sent",
+      "sentWithCounts": "Sent · {{comments}} comments, {{photos}} photos",
+      "photos_one": "1 photo",
+      "photos_other": "{{count}} photos",
+      "voiceNote": "voice note"
+    },
+    "status": {
+      "reviewing": "Nurse is reviewing",
+      "noFollowUp": "No follow-up needed",
+      "open": "Open",
+      "accepted": "Accepted by the care team",
+      "resolved": "Resolved",
+      "resolvedBy": "Resolved by {{name}}",
+      "voided": "Cancelled"
+    }
+  },
+  "caregiverMe": {
+    "title": "Me",
+    "account": "Account",
+    "signOut": "Sign out",
+    "footer": "PreventaTri {{version}} · signed in as {{email}}",
+    "stats": {
+      "checklistsSent": "checklists sent",
+      "redFlagsRaised": "red flags raised"
+    },
+    "profile": {
+      "title": "Profile",
+      "subtitle": "Name, email, phone number"
+    },
+    "password": {
+      "title": "Change password",
+      "subtitle": "Pick a new password for this account"
+    },
+    "language": {
+      "title": "Language",
+      "english": "English"
+    }
+  }
+}

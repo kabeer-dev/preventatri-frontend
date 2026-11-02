@@ -1,0 +1,292 @@
+@layer theme, base, mui, components, utilities;
+@import 'yet-another-react-lightbox/styles.css';
+
+@import 'tailwindcss';
+
+@theme {
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 900px;
+  --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1536px;
+  --breakpoint-2xl: initial;
+}
+
+/* ---break---  */
+@plugin 'tailwindcss-animate';
+
+/* loaders styles  */
+
+.loader-icon {
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.heartbeat-loader path {
+  stroke-dasharray: 26;
+  animation: heartbeat-trace 0.75s linear infinite;
+}
+
+@keyframes heartbeat-trace {
+  0% {
+    stroke-dashoffset: 26;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -26;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heartbeat-loader path {
+    stroke-dasharray: none;
+    animation: none;
+  }
+}
+
+@theme inline {
+  --font-sans: var(--font-public-sans), sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), monospace;
+
+  /* Neutrals: surfaces and text */
+  --color-page: var(--mui-palette-background-default);
+  --color-surface: var(--mui-palette-background-paper);
+  --color-surface-raised: var(--mui-palette-customColors-surfaceRaised);
+  --color-border: var(--mui-palette-divider);
+  --color-ink-faint: var(--mui-palette-customColors-inkFaint);
+  --color-rule: var(--mui-palette-customColors-rule);
+  --color-rule-strong: var(--mui-palette-customColors-ruleStrong);
+  --color-ink-soft: var(--mui-palette-customColors-inkSoft);
+  --color-segment-track: var(--mui-palette-customColors-segmentTrack);
+  --color-border-strong: var(--mui-palette-customColors-borderStrong);
+  --color-ink: var(--mui-palette-text-primary);
+  --color-ink-muted: var(--mui-palette-text-secondary);
+  --color-ink-subtle: var(--mui-palette-text-disabled);
+
+  /* Brand teal: every action */
+  --color-brand: var(--mui-palette-primary-main);
+  --color-brand-hover: var(--mui-palette-primary-dark);
+  --color-brand-bright: var(--mui-palette-primary-light);
+  --color-brand-tint: var(--mui-palette-customColors-brandTint);
+  --color-brand-edge: var(--mui-palette-customColors-brandEdge);
+  --color-brand-muted: var(--mui-palette-customColors-brandMuted);
+
+  /* Shell: sidebar and takeovers */
+  --color-shell: var(--mui-palette-customColors-shell);
+  --color-shell-raised: var(--mui-palette-customColors-shellRaised);
+  --color-shell-active: var(--mui-palette-customColors-shellActive);
+  --color-shell-text: var(--mui-palette-customColors-shellText);
+  --color-shell-muted: var(--mui-palette-customColors-shellMuted);
+  --color-shell-danger: var(--mui-palette-customColors-shellDanger);
+  --color-shell-danger-text: var(--mui-palette-customColors-shellDangerText);
+
+  /* Severity: always paired with a glyph and a written label */
+  --color-severity-critical-bar: var(
+    --mui-palette-customColors-severityCriticalBar
+  );
+  --color-severity-critical-bg: var(
+    --mui-palette-customColors-severityCriticalBg
+  );
+  --color-severity-critical-fg: var(
+    --mui-palette-customColors-severityCriticalFg
+  );
+  --color-severity-moderate-bar: var(
+    --mui-palette-customColors-severityModerateBar
+  );
+  --color-severity-moderate-bg: var(
+    --mui-palette-customColors-severityModerateBg
+  );
+  --color-severity-moderate-fg: var(
+    --mui-palette-customColors-severityModerateFg
+  );
+  --color-severity-stable-bar: var(
+    --mui-palette-customColors-severityStableBar
+  );
+  --color-severity-stable-bg: var(--mui-palette-customColors-severityStableBg);
+  --color-severity-stable-fg: var(--mui-palette-customColors-severityStableFg);
+
+  /* Audit log action chips: one bg/fg pair per AUDIT_OPERATIONS entry */
+  --color-audit-action-create-bg: var(
+    --mui-palette-customColors-auditActionCreateBg
+  );
+  --color-audit-action-create-fg: var(
+    --mui-palette-customColors-auditActionCreateFg
+  );
+  --color-audit-action-read-bg: var(
+    --mui-palette-customColors-auditActionReadBg
+  );
+  --color-audit-action-read-fg: var(
+    --mui-palette-customColors-auditActionReadFg
+  );
+  --color-audit-action-update-bg: var(
+    --mui-palette-customColors-auditActionUpdateBg
+  );
+  --color-audit-action-update-fg: var(
+    --mui-palette-customColors-auditActionUpdateFg
+  );
+  --color-audit-action-delete-bg: var(
+    --mui-palette-customColors-auditActionDeleteBg
+  );
+  --color-audit-action-delete-fg: var(
+    --mui-palette-customColors-auditActionDeleteFg
+  );
+  --color-audit-action-login-bg: var(
+    --mui-palette-customColors-auditActionLoginBg
+  );
+  --color-audit-action-login-fg: var(
+    --mui-palette-customColors-auditActionLoginFg
+  );
+  --color-audit-action-logout-bg: var(
+    --mui-palette-customColors-auditActionLogoutBg
+  );
+  --color-audit-action-logout-fg: var(
+    --mui-palette-customColors-auditActionLogoutFg
+  );
+  --color-audit-action-reset-password-bg: var(
+    --mui-palette-customColors-auditActionResetPasswordBg
+  );
+  --color-audit-action-reset-password-fg: var(
+    --mui-palette-customColors-auditActionResetPasswordFg
+  );
+  --color-audit-action-invite-bg: var(
+    --mui-palette-customColors-auditActionInviteBg
+  );
+  --color-audit-action-invite-fg: var(
+    --mui-palette-customColors-auditActionInviteFg
+  );
+  --color-audit-action-account-lock-bg: var(
+    --mui-palette-customColors-auditActionAccountLockBg
+  );
+  --color-audit-action-account-lock-fg: var(
+    --mui-palette-customColors-auditActionAccountLockFg
+  );
+  --color-audit-action-account-unlock-bg: var(
+    --mui-palette-customColors-auditActionAccountUnlockBg
+  );
+  --color-audit-action-account-unlock-fg: var(
+    --mui-palette-customColors-auditActionAccountUnlockFg
+  );
+  --color-audit-action-sync-started-bg: var(
+    --mui-palette-customColors-auditActionSyncStartedBg
+  );
+  --color-audit-action-sync-started-fg: var(
+    --mui-palette-customColors-auditActionSyncStartedFg
+  );
+  --color-audit-action-sync-completed-bg: var(
+    --mui-palette-customColors-auditActionSyncCompletedBg
+  );
+  --color-audit-action-sync-completed-fg: var(
+    --mui-palette-customColors-auditActionSyncCompletedFg
+  );
+  --color-audit-action-sync-failed-bg: var(
+    --mui-palette-customColors-auditActionSyncFailedBg
+  );
+  --color-audit-action-sync-failed-fg: var(
+    --mui-palette-customColors-auditActionSyncFailedFg
+  );
+
+  /* Semantic aliases kept for components already using them */
+  --color-primary: var(--mui-palette-primary-main);
+  --color-primary-light: var(--mui-palette-primary-light);
+  --color-primary-dark: var(--mui-palette-primary-dark);
+  --color-secondary: var(--mui-palette-secondary-main);
+  --color-error: var(--mui-palette-error-main);
+  --color-warning: var(--mui-palette-warning-main);
+  --color-info: var(--mui-palette-info-main);
+  --color-success: var(--mui-palette-success-main);
+
+  --color-bg-default: var(--mui-palette-background-default);
+  --color-bg-paper: var(--mui-palette-background-paper);
+
+  --color-text-primary: var(--mui-palette-text-primary);
+  --color-text-secondary: var(--mui-palette-text-secondary);
+  --color-text-disabled: var(--mui-palette-text-disabled);
+
+  /* Elevation: card, hover, popover, modal */
+  --shadow-card: var(--mui-shadows-6);
+  --shadow-hover: var(--mui-shadows-7);
+  --shadow-popover: var(--mui-shadows-8);
+  --shadow-modal: var(--mui-shadows-24);
+  --shadow-sm: var(--mui-shadows-6);
+  --shadow-md: var(--mui-shadows-6);
+  --shadow-lg: var(--mui-shadows-8);
+  --shadow-xl: var(--mui-shadows-24);
+}
+
+/* Prevent accidental selection of background/layout elements */
+body {
+  user-select: none;
+}
+
+/* Allow text selection in interactive and content areas */
+input,
+textarea,
+pre,
+code,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+li,
+td,
+th,
+label,
+a,
+.MuiTypography-root,
+.MuiInputBase-input,
+.MuiFormLabel-root,
+.MuiTableCell-root {
+  user-select: text;
+}
+
+/* custom reusable classes here for tailwind  */
+@layer components {
+  /* Auth layout classes */
+  .content-center {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+  }
+
+  .content-right {
+    display: flex;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

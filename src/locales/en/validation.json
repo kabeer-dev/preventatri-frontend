@@ -1,0 +1,43 @@
+{
+  "authValidation": {
+    "emailInvalid": "Invalid {{fieldName}} address",
+    "emailRequired": "{{fieldName}} is required",
+    "phoneNoMax": "{{fieldName}} must not exceed {{limit}} characters",
+    "phoneNoInvalid": "{{fieldName}} may contain digits only, with an optional leading +",
+    "phoneNoRequired": "{{fieldName}} is Required",
+    "passwordRequired": "Password is required",
+    "organizationNameRequired": "Organization name is required",
+    "organizationNameMin": "Organization name must be at least {{limit}} characters",
+    "organizationNameMax": "Organization name must not exceed {{limit}} characters",
+    "passwordUppercase": "Must contain at least 1 uppercase letter",
+    "passwordsMustMatch": "Passwords must match",
+    "confirmPasswordRequired": "Confirm Password is required",
+    "newPasswordRequired": "New Password is required",
+    "nameMin": "{{fieldName}} must be at least 1 character",
+    "nameMax": "{{fieldName}} must be less than {{limit}} characters",
+    "nameRequired": "{{fieldName}} is required",
+    "passwordRuleLength": "12 to 64 characters",
+    "passwordRuleCase": "Upper and lower case",
+    "passwordRuleNumber": "A number",
+    "passwordRuleSymbol": "A symbol",
+    "passwordRuleFailed": "Password must include: {{rule}}"
+  },
+  "validation": {
+    "textLong": "{{fieldName}} must be less than {{limit}} characters",
+    "redFlagDescriptionLong": "What is wrong and the description together must be under {{limit}} characters",
+    "numberRequired": "{{fieldName}} is required",
+    "integerOnly": "{{fieldName}} must be an integer",
+    "invalidOption": "Invalid {{fieldName}} selected",
+    "fieldRequired": "This {{fieldName}} is required",
+    "numberTypeError": "{{fieldName}} must be a number",
+    "optionTypeError": "{{fieldName}} must be a valid option",
+    "multiSelectRequired": "{{fieldName}} must have at least 1 selected option",
+    "regionOverlap": "Primary and secondary regions cannot overlap",
+    "primarySecondaryNurseMustDiffer": "Primary and secondary nurse must be different",
+    "regionNurseRolesMustDiffer": "A nurse cannot be both a primary and a secondary nurse for the same region",
+    "mustBeFutureDate": "{{fieldName}} must be a future date",
+    "mustBeTodayOrFutureDate": "{{fieldName}} must be today or a future date",
+    "endDateAfterStartDate": "End Date must be the same as or after Start Date",
+    "npiFormat": "NPI must be exactly 10 digits"
+  }
+}

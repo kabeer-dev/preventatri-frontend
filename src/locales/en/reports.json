@@ -1,0 +1,199 @@
+{
+  "reports": {
+    "toolbarLabel": "Report filters",
+    "updated": "Updated {{time}}",
+    "allRegions": "All regions",
+    "presets": {
+      "last90Days": "Last 90 days"
+    },
+    "now": "Now",
+    "retry": "Retry",
+    "loadError": "This section could not load.",
+    "sections": {
+      "performance": "Alerts and performance",
+      "patients": "Patients",
+      "workItems": "Follow-ups and visits",
+      "coverage": "Coverage"
+    },
+    "kpis": {
+      "alertsRaised": "Alerts raised",
+      "alertsRaisedSub": "{{red}} red, {{yellow}} yellow",
+      "sla": "SLA compliance",
+      "slaSub": "{{timeouts}} time-outs",
+      "medianResolve": "Median time to resolve",
+      "medianResolveSub": "p90 {{p90}} · accept {{accept}}",
+      "assessments": "Assessments on time",
+      "assessmentsSub": "{{missed}} missed, {{late}} late",
+      "overdueWork": "Overdue work",
+      "overdueWorkSub": "{{tasks}} follow-ups, {{visits}} visits",
+      "delta": "{{arrow}} {{amount}}",
+      "deltaPoints": "{{arrow}} {{amount}} pts",
+      "deltaVsPrevious": "Change against the previous period"
+    },
+    "roles": {
+      "title": "Performance by role",
+      "caption": "each role's own part of the work",
+      "nameWithPeople": "{{name}} · {{people}}",
+      "nurses": "Nurses",
+      "nursesMeasure": "Alerts resolved before the timer ran out · {{part}} of {{total}}",
+      "caseManagers": "Case managers",
+      "caseManagersMeasure": "Follow-ups closed on time · {{part}} of {{total}}",
+      "caregivers": "Caregivers",
+      "caregiversMeasure": "Assessments on time · {{part}} of {{total}}",
+      "admins": "Admins",
+      "adminsMeasure": "Alerts resolved at the admin step · {{part}} of {{total}}"
+    },
+    "regions": {
+      "title": "Region scorecard",
+      "caption": "by each patient's current county",
+      "unassigned": "Unassigned region",
+      "headers": {
+        "region": "Region",
+        "activePatients": "Active patients",
+        "alerts": "Alerts",
+        "sla": "SLA",
+        "medianResolve": "Median resolve",
+        "medianAccept": "Median accept",
+        "assessments": "Assessments on time",
+        "overdue": "Overdue work"
+      },
+      "empty": "No regions yet."
+    },
+    "patients": {
+      "title": "High-risk patients",
+      "caption": "red or yellow alerts or a rising triage score, highest risk first",
+      "headers": {
+        "patient": "Patient",
+        "county": "County",
+        "caseManager": "Case manager",
+        "red": "Red",
+        "yellow": "Yellow",
+        "overdue": "Overdue follow-ups",
+        "trend": "Trend"
+      },
+      "name": "{{lastName}}, {{firstName}}",
+      "caseManagerName": "{{firstName}} {{lastName}}",
+      "trend": {
+        "worsening": "Worsening",
+        "improving": "Improving",
+        "stable": "Stable"
+      },
+      "noCounty": "No county",
+      "unassigned": "Unassigned",
+      "empty": "No high-risk patients in this period."
+    },
+    "followUps": {
+      "title": "Follow-up tasks",
+      "caption": "tasks created in the period, most of them from alerts",
+      "created": "Created",
+      "completed": "Completed",
+      "onTime": "Completed on time",
+      "overdue": "Overdue",
+      "chartLabel": "Follow-up tasks created and completed per period"
+    },
+    "visits": {
+      "title": "Supervisory visits",
+      "caption": "visits scheduled to start in the period",
+      "scheduled": "Scheduled",
+      "filedOnTime": "Filed on time",
+      "medianReview": "Median review time",
+      "overdue": "Overdue",
+      "concerns": "filed with concerns noted",
+      "concernsValue": "{{count}} of {{filed}}",
+      "corrections": "sent back for correction",
+      "statusMixLabel": "Visits by status: {{summary}}",
+      "status": {
+        "scheduled": "Scheduled",
+        "underReview": "Under review",
+        "approved": "Approved",
+        "overdue": "Overdue",
+        "cancelled": "Cancelled"
+      }
+    },
+    "coverage": {
+      "title": "Coverage gaps",
+      "caption": "live checks; gaps here are why some alerts skip the nurse ladder and go straight to an administrator",
+      "withoutCounty": "Patients without a county",
+      "withoutCountyWhy": "Alerts go straight to an admin",
+      "withoutPrimaryNurse": "Patients without a primary nurse",
+      "withoutPrimaryNurseWhy": "Ladder starts one step later",
+      "withoutCaseManager": "Patients without a case manager",
+      "withoutCaseManagerWhy": "No oversight on their alerts",
+      "withoutChecklist": "Patients without an active checklist",
+      "withoutChecklistWhy": "The triage engine never scores them",
+      "regionsWithoutPrimary": "Regions without a default primary nurse",
+      "regionsWithoutPrimaryWhy": "Region-level paging is skipped",
+      "licenses": "Nurse licenses expiring in 30 days",
+      "licensesWhy": "Includes licenses already expired"
+    },
+    "export": {
+      "button": "Export",
+      "pdf": "PDF, whole page",
+      "pdfHint": "Every section as a styled table",
+      "csv": "CSV, whole page",
+      "csvHint": "Every section as rows",
+      "fileTitle": "Reports, {{period}}, {{region}}",
+      "generated": "Generated {{date}}",
+      "unnamedRegion": "1 region",
+      "selected": "{{filters}} selected",
+      "listAnd": "{{rest}} and {{last}}",
+      "people": {
+        "caregiver_one": "{{count}} caregiver",
+        "caregiver_other": "{{count}} caregivers",
+        "caseManager_one": "{{count}} case manager",
+        "caseManager_other": "{{count}} case managers",
+        "nurse_one": "{{count}} nurse",
+        "nurse_other": "{{count}} nurses",
+        "patient_one": "{{count}} patient",
+        "patient_other": "{{count}} patients"
+      },
+      "tables": {
+        "kpis": "Key figures",
+        "flagsPerDay": "Flags raised per day",
+        "followUpsPerPeriod": "Follow-up tasks per period",
+        "visitStatus": "Supervisory visits by status",
+        "slaPerDay": "SLA compliance per day",
+        "alertStatus": "Alert status",
+        "regionOnly": "region filter only"
+      },
+      "headers": {
+        "metric": "Metric",
+        "value": "Value",
+        "change": "Change",
+        "details": "Details",
+        "date": "Date",
+        "role": "Role",
+        "measure": "Measure",
+        "result": "Result",
+        "period": "Period",
+        "status": "Status",
+        "count": "Count",
+        "gap": "Gap",
+        "reason": "Reason"
+      },
+      "failed": "The file could not be created. Try again."
+    },
+    "alertStatus": {
+      "title": "Alert status",
+      "caption": "red and yellow alerts raised in the period",
+      "open": "Open",
+      "accepted": "Accepted",
+      "resolved": "Resolved",
+      "voided": "Voided",
+      "red": "Red alerts",
+      "yellow": "Yellow alerts",
+      "resolvedRate": "Resolved, voided left out",
+      "total_one": "alert",
+      "total_other": "alerts",
+      "empty": "No alerts in this period",
+      "chartLabel": "Alerts by status"
+    },
+    "filters": {
+      "region": "Region",
+      "caregiver": "Caregiver",
+      "caseManager": "Case manager",
+      "nurse": "Nurse",
+      "patient": "Patient"
+    }
+  }
+}

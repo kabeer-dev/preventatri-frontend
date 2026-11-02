@@ -1,0 +1,202 @@
+{
+  "mainPageTitle": {
+    "appName": "PreventaTri",
+    "description": "PreventaTri Healthcare Technologies"
+  },
+  "login": {
+    "title": "Login",
+    "description": "Login Page"
+  },
+  "register": {
+    "title": "Register",
+    "description": "Register Page"
+  },
+  "reset": {
+    "title": "Reset Password",
+    "description": "Reset Password Page"
+  },
+  "not-found": {
+    "title": "Not Found",
+    "description": "Not Found Page"
+  },
+  "verify": {
+    "title": "Verify User",
+    "description": "Verify User Page"
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "description": "Forgot Password Page"
+  },
+  "registerVerifyRequest": {
+    "title": "Register Verification",
+    "description": "Register Verification Page"
+  },
+  "home": {
+    "title": "Home",
+    "description": "Home Page"
+  },
+  "unverifiedLogin": {
+    "title": "Unverified Login",
+    "description": "Unverified Login Page"
+  },
+  "linkSent": {
+    "title": "Link Sent",
+    "description": "Link Sent Page"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": "Dashboard Page"
+  },
+  "caregiverActivity": {
+    "title": "Activity",
+    "description": "Activity Page"
+  },
+  "caregiverMe": {
+    "title": "Me",
+    "description": "Me Page"
+  },
+  "caregiverRedFlag": {
+    "title": "Red flag",
+    "description": "Raise a red flag page"
+  },
+  "triage-engine": {
+    "title": "Triage Engine",
+    "description": "Triage Engine Page"
+  },
+  "users": {
+    "title": "Users & Roles",
+    "description": "Users & Roles Page"
+  },
+  "organizations": {
+    "title": "Organizations",
+    "description": "Organizations Page"
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Settings Page"
+  },
+  "nurses": {
+    "title": "Nurses",
+    "description": "Nurses List Page"
+  },
+  "hhaVisits": {
+    "title": "HHA Visits",
+    "description": "HHAeXchange Visits List Page"
+  },
+  "hhaSync": {
+    "title": "HHA Sync",
+    "description": "HHAeXchange sync history and exceptions"
+  },
+  "hhaSyncRun": {
+    "title": "Sync Run",
+    "description": "One HHAeXchange sync run"
+  },
+  "caregivers": {
+    "title": "Caregivers",
+    "description": "Caregivers List Page"
+  },
+  "nurseDetail": {
+    "title": "Nurse Details",
+    "description": "Nurse Details Page"
+  },
+  "caregiverDetail": {
+    "title": "Caregiver Details",
+    "description": "Caregiver Details Page"
+  },
+  "patients": {
+    "title": "Patients",
+    "description": "Patients List Page"
+  },
+  "patientDetail": {
+    "title": "Patient Details",
+    "description": "Patient Details Page"
+  },
+  "region": {
+    "title": "Regions",
+    "description": "Regions Management"
+  },
+  "caseManagers": {
+    "title": "Case Managers",
+    "description": "Case Managers List Page"
+  },
+  "caseManagerDetail": {
+    "title": "Case Manager Details",
+    "description": "Case Manager Details Page"
+  },
+  "acceptInvitation": {
+    "title": "Accept Invitation",
+    "description": "Accept Invitation Page"
+  },
+  "acceptOrganizationInvitation": {
+    "title": "Join Organization",
+    "description": "Accept an invitation to join an organization"
+  },
+  "switchOrganization": {
+    "title": "Switch Organization",
+    "description": "Switching to another organization"
+  },
+  "accountLocked": {
+    "title": "Account Locked",
+    "description": "Account Locked Page"
+  },
+  "unlockAccount": {
+    "title": "Unlock Account",
+    "description": "Unlock Account Page"
+  },
+  "assessments": {
+    "title": "Patient Assessments",
+    "description": "Patient Assessments Page"
+  },
+  "checklist": {
+    "title": "Checklist",
+    "description": "Patient Checklist Page"
+  },
+  "redFlag": {
+    "title": "Red Flag",
+    "description": "Submit Immediate Red Flag Page"
+  },
+  "assessmentChecklists": {
+    "title": "Assessment Checklists",
+    "description": "Assessment Checklists Page"
+  },
+  "assessmentChecklistDetail": {
+    "title": "Checklist Details",
+    "description": "Checklist Details Page"
+  },
+  "assessmentChecklistBuilder": {
+    "title": "Checklist Builder",
+    "description": "Checklist Builder Page"
+  },
+  "submissions": {
+    "title": "Submissions",
+    "description": "Submissions Page"
+  },
+  "submissionDetail": {
+    "title": "Submission Details",
+    "description": "Submission Details Page"
+  },
+  "redFlagDetail": {
+    "title": "Red Flag Details",
+    "description": "Red Flag Details Page"
+  },
+  "emergencyFlags": {
+    "title": "Emergency Flags",
+    "description": "Emergency Flags List Page"
+  },
+  "emergencyFlagDetail": {
+    "title": "Emergency Flag Details",
+    "description": "Emergency Flag Details Page"
+  },
+  "reports": {
+    "title": "Reports",
+    "description": "Reports Page"
+  },
+  "activityLog": {
+    "title": "Activity Log",
+    "description": "Activity Log Page"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "description": "Notifications Page"
+  }
+}

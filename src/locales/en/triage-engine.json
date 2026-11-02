@@ -1,0 +1,20 @@
+{
+  "triageEngine": {
+    "alerts": {
+      "emptyMessage": "No alerts generated yet.",
+      "items": {
+        "manual": "Flag Submitted By Caregiver",
+        "auto": "Flag Captured By Triage Engine"
+      },
+      "headers": {
+        "severity": "Severity",
+        "alert": "Alert",
+        "status": "Status",
+        "raised": "Raised"
+      },
+      "tabs": {
+        "ariaLabel": "Triage alerts view"
+      }
+    }
+  }
+}

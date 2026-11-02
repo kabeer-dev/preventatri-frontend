@@ -1,0 +1,9 @@
+{
+  "modalButtons": {
+    "cancelLabel": "Cancel",
+    "confirmLabel": "Confirm",
+    "deleteLabel": "Archive",
+    "updateImage": "Update Image",
+    "removeImage": "Remove Image"
+  }
+}

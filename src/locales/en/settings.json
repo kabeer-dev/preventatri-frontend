@@ -1,0 +1,158 @@
+{
+  "sections": {
+    "ariaLabel": "Settings sections",
+    "escalation": "Escalation & SLA",
+    "organization": "Organization",
+    "security": "Security & data",
+    "profile": "Your profile"
+  },
+  "settings": {
+    "updateButtonText": "Update",
+    "personalDetailsHeading": "Personal Details",
+    "passwordDetailsHeading": "Password Details",
+    "passwordRequirements": "At least 12 characters, with a number and a symbol. You will stay signed in on this device.",
+    "passwordLastChanged": "Last changed {{date}}"
+  },
+  "twoStepVerification": {
+    "heading": "Two-step verification",
+    "subheading": "Required by your organization. Choose how you want to receive sign-in codes.",
+    "sendCodesBy": "Send my codes by",
+    "email": "Email",
+    "phone": "SMS",
+    "both": "Email and SMS",
+    "bothDescription": "Both codes are required when you sign in",
+    "phoneEnding": "Phone ending in {{ending}}",
+    "needsPhone": "Needs a phone number",
+    "addPhoneFirst": "Add a phone number in Personal Details first to receive sign-in codes by SMS.",
+    "current": "Current",
+    "recommended": "Recommended",
+    "cancel": "Cancel",
+    "save": "Save changes"
+  },
+  "personalDetailsForm": {
+    "updateOneFieldOnly": "You can only update either email or phone at a time"
+  },
+  "profileImage": {
+    "cropImage": "Crop Image",
+    "cropImageDescription": "Drag to adjust the crop area and click Confirm when done.",
+    "confirmLabel": "Confirm",
+    "removeImage": "Remove Photo",
+    "removeImageDescription": "Are you sure you want to remove your profile photo?",
+    "removeConfirmLabel": "Remove"
+  },
+  "activeDevices": {
+    "heading": "Active Devices",
+    "subheading": "Manage the devices that are currently signed in to your account",
+    "thisDevice": "This device",
+    "activeSince": "Active since {{time}}",
+    "signOut": "Sign out",
+    "signOutFromAllDevices": "Sign out from all other devices",
+    "noOtherDevices": "You're not signed in on any other device",
+    "signOutConfirmTitle": "Sign out device",
+    "signOutConfirmMessage": "Are you sure you want to sign out {{device}}? You'll need to sign in again on that device.",
+    "signOutFromAllDevicesConfirmTitle": "Sign out from all other devices",
+    "signOutFromAllDevicesConfirmMessage": "Are you sure you want to sign out of all other devices? You'll need to sign in again on each of them.",
+    "confirmLabel": "Confirm"
+  },
+  "organizationSettings": {
+    "heading": "Organization Settings",
+    "subheading": "Manage your organization's working hours and time zone",
+    "closed": "Day off",
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "today": "Today",
+    "sameForAllDays": "Use the same time for all days",
+    "openNow": "Open now — closes at {{time}}",
+    "closedOpensAt": "Closed — opens at {{time}}",
+    "closedOpensOn": "Closed — opens {{day}} at {{time}}",
+    "closedAllWeek": "Closed all week",
+    "workingHoursHeading": "Working hours",
+    "timeZoneHeading": "Time zone",
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "timeZoneSubheading": "Times across the organization are shown in this zone.",
+    "workingHoursSubheading": "The days and hours your team is on duty.",
+    "discard": "Discard"
+  },
+  "escalationSettings": {
+    "heading": "Escalation & SLA",
+    "subheading": "Each template runs for every new flag of its colour. If a step's deadline passes with no response, the alert escalates to the next step. Drag a step by its handle to reorder.",
+    "flagTabsAriaLabel": "Flag colour",
+    "flags": {
+      "RED": "Red flag",
+      "YELLOW": "Yellow flag"
+    },
+    "flagNames": {
+      "RED": "red flag",
+      "YELLOW": "yellow flag"
+    },
+    "unsavedMark": "•",
+    "stepCount_one": "{{count}} step",
+    "stepCount_other": "{{count}} steps",
+    "total": "Total {{duration}}",
+    "stepsHeading": "Escalation steps for a {{flag}}",
+    "stepsSubheading": "The timer starts when the caregiver's submission lands. Each deadline is how long that person has to respond. Region nurses are filled in automatically when a patient has no assigned nurse.",
+    "columns": {
+      "whoIsNotified": "Who is notified",
+      "notifyVia": "Notify via",
+      "deadline": "Deadline"
+    },
+    "stepTypes": {
+      "PRIMARY_NURSE": "Patient primary nurse",
+      "SECONDARY_NURSE": "Patient secondary nurse",
+      "CASE_MANAGER": "Case manager",
+      "ADMIN": "Admin"
+    },
+    "fallbacks": {
+      "primaryNurse": {
+        "label": "Region primary nurse",
+        "hint": "Auto — used when the patient has no primary nurse or they don't respond"
+      },
+      "secondaryNurse": {
+        "label": "Region secondary nurse",
+        "hint": "Auto — used when the patient has no secondary nurse or they don't respond"
+      }
+    },
+    "channels": {
+      "IN_APP": "Push",
+      "EMAIL": "Email",
+      "SMS": "SMS"
+    },
+    "noChannel": "Pick a channel",
+    "units": {
+      "MINUTES": "minutes",
+      "HOURS": "hours"
+    },
+    "duration": {
+      "minutes_one": "{{count}} minute",
+      "minutes_other": "{{count}} minutes",
+      "hours_one": "{{count}} hour",
+      "hours_other": "{{count}} hours",
+      "hoursMinutes": "{{hours}} h {{minutes}} min"
+    },
+    "noDeadline": "No deadline",
+    "ifNoResponse": "If no response",
+    "escalatesTo": "Escalates to step {{step}}: {{name}}",
+    "escalatesToWithFallback": "Escalates to step {{step}}: {{name}} (or {{fallback}})",
+    "finalStep": "Final step — the alert stays open with the admin until it is resolved",
+    "adminPinned": "Admin is always the final step",
+    "reorderAriaLabel": "Reorder step {{step}}. Drag, or use the arrow keys.",
+    "deadlineUnitAriaLabel": "Deadline unit",
+    "removeStepAriaLabel": "Remove step {{step}}",
+    "addStep": "Add step",
+    "invalidHint": "Every step needs at least one channel, and every deadline must be a whole number of 1 or more.",
+    "discard": "Discard changes",
+    "save": "Save template",
+    "empty": "No escalation policy found for this flag colour.",
+    "saveSuccess": "Escalation policy saved.",
+    "saveError": "Couldn't save the escalation policy. Please try again."
+  }
+}

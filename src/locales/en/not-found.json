@@ -1,0 +1,11 @@
+{
+  "notFound": {
+    "title": "Page not found",
+    "heading": "404",
+    "message": "The link may be out of date, or the page has moved. Nothing in your records was changed.",
+    "requestedPath": "You tried",
+    "goBack": "Go back",
+    "goToDashboard": "Go to dashboard",
+    "goToSignIn": "Go to sign in"
+  }
+}

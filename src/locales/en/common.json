@@ -1,0 +1,2850 @@
+{
+  "commonContent": {
+    "details": "Details",
+    "previous": "Previous",
+    "next": "Next",
+    "reset": "Reset",
+    "invalidFileFormat": "Invalid file format",
+    "yes": "Yes",
+    "no": "No",
+    "general": "General",
+    "deleteComment": "Archive comment"
+  },
+  "loginLoader": {
+    "message": "Loading....."
+  },
+  "modal": {
+    "confirmLabel": "OK",
+    "deleteLabel": "Archive",
+    "dismissLabel": "Cancel",
+    "unsavedChangesTitle": "Unsaved Changes",
+    "unsavedChangesMessage": "You have unsaved changes. Are you sure you want to close without saving?",
+    "closeButton": "Close",
+    "saveButton": "Save Changes",
+    "updateButton": "Update"
+  },
+  "errorResponse": {
+    "message": "Something went wrong"
+  },
+  "submitButton": {
+    "text": "Submit"
+  },
+  "SelectType": {
+    "placeholder": "Select a Type"
+  },
+  "error": {
+    "message": "'An error occurred"
+  },
+  "common": {
+    "loading": "Loading…",
+    "resendInvitation": {
+      "action": "Resend invitation",
+      "title": "Resend Invitation",
+      "message": "Send a new invitation email to {{name}}? The previous link will stop working.",
+      "confirmLabel": "Resend",
+      "cancelLabel": "Cancel"
+    },
+    "sendInvitation": {
+      "action": "Send invitation",
+      "title": "Send Invitation",
+      "message": "Send an invitation email to {{name}}? They will be able to set a password and sign in.",
+      "confirmLabel": "Send"
+    },
+    "cancelInvitation": {
+      "action": "Cancel invitation",
+      "title": "Cancel Invitation",
+      "message": "Cancel the invitation sent to {{name}}? The link in their email will stop working.",
+      "confirmLabel": "Cancel invitation",
+      "cancelLabel": "Keep"
+    }
+  },
+  "caregiver": {
+    "table": {
+      "title": "Caregivers",
+      "searchPlaceholder": "Search Caregiver",
+      "addButton": "Add New Caregiver",
+      "headers": {
+        "nameEmail": "NAME & EMAIL",
+        "assignedPatients": "ASSIGNED PATIENTS",
+        "redFlags": "RED FLAGS",
+        "lastActive": "LAST ACTIVE",
+        "status": "STATUS",
+        "source": "SOURCE",
+        "action": "ACTION"
+      },
+      "patientSingular": "Patient",
+      "patientPlural": "Patients",
+      "thisMonthText": "this month",
+      "noRowsLabel": "No caregivers found. Start adding caregivers to get started."
+    },
+    "modalTitle": "Add New Caregiver",
+    "editModalTitle": "Edit Caregiver",
+    "drawerSubtitle": "Personal details, role and status",
+    "personalInfo": "Personal Information",
+    "roleStatus": "Role & Status",
+    "additionalInfo": "Additional Information",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "First Name",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Last Name",
+    "email": "Work Email",
+    "emailPlaceholder": "Work Email",
+    "phoneNo": "Phone Number",
+    "phoneNoPlaceholder": "Phone Number",
+    "caregiverRole": "Caregiver Role",
+    "status": "Status",
+    "preferredContactMethod": "Preferred Contact Method",
+    "relationshipToPatient": "Relationship to Patient",
+    "languagePreference": "Language Preference",
+    "notes": "Notes",
+    "notesPlaceholder": "Additional notes (admin-only)",
+    "startDate": "Start Date",
+    "terminationDate": "Termination Date",
+    "onCallIndicator": "On-Call",
+    "addressInfo": "Address",
+    "address": "Street Address",
+    "addressPlaceholder": "Street Address",
+    "city": "City",
+    "cityPlaceholder": "City",
+    "state": "State",
+    "statePlaceholder": "State",
+    "zipCode": "Zip Code",
+    "zipCodePlaceholder": "Zip Code",
+    "sync": {
+      "managedBanner": "This caregiver is synced from HHAeXchange. The greyed-out fields are managed there and cannot be edited here.",
+      "placeholderEmailBanner": "HHAeXchange had no email for this caregiver, so a placeholder was generated. Replace it with a real address to invite them. If an email is later added in HHAeXchange, it replaces this one."
+    },
+    "source": {
+      "manual": "Manual",
+      "hhaExchange": "HHAeXchange"
+    },
+    "closeButton": "Close",
+    "saveButton": "Save Changes",
+    "updateButton": "Update Caregiver",
+    "deleteTitle": "Archive Caregiver",
+    "deleteMessage": "Are you sure you want to archive {{name}}? The record is kept and not deleted.",
+    "deleteButton": "Archive",
+    "cancelButton": "Cancel",
+    "notFoundTitle": "Caregiver Not Found",
+    "notFoundMessage": "The caregiver you are looking for does not exist or has been removed.",
+    "details": {
+      "role": "Caregiver",
+      "patients": "Patients",
+      "status": "Status",
+      "email": "Email",
+      "phone": "Phone",
+      "caregiverRole": "Role",
+      "relationshipToPatient": "Relationship to Patient",
+      "preferredContact": "Preferred Contact",
+      "language": "Language",
+      "onCall": "On-Call",
+      "onCallYes": "Yes",
+      "onCallNo": "No",
+      "startDate": "Start Date",
+      "terminationDate": "Termination Date",
+      "address": "Address",
+      "source": "Source",
+      "hhaLastSyncedAt": "Last Synced",
+      "notes": "Notes",
+      "submittedChecklist": "Submitted Checklist",
+      "redFlagsRaised": "Critical alerts raised",
+      "last30Days": "In last 30 days",
+      "table": {
+        "title": "Assigned Patients",
+        "noRowsLabel": "No patients assigned to this caregiver yet.",
+        "headers": {
+          "patientName": "PATIENT NAME"
+        }
+      },
+      "submissionsTable": {
+        "title": "Recent Submissions",
+        "noRowsLabel": "No submissions by this caregiver yet."
+      },
+      "redFlagsTable": {
+        "title": "Recent critical alerts",
+        "noRowsLabel": "No critical alerts raised by this caregiver yet."
+      }
+    }
+  },
+  "caseManager": {
+    "table": {
+      "title": "Case Managers",
+      "searchPlaceholder": "Search Case Manager",
+      "addButton": "Add New Case Manager",
+      "headers": {
+        "nameEmail": "NAME & EMAIL",
+        "assignedPatients": "ASSIGNED PATIENTS",
+        "lastLogin": "LAST LOGIN",
+        "status": "STATUS",
+        "action": "ACTION",
+        "source": "SOURCE"
+      },
+      "patientSingular": "Patient",
+      "patientPlural": "Patients",
+      "noRowsLabel": "No case managers found"
+    },
+    "modalTitle": "Add Case Manager",
+    "editModalTitle": "Edit Case Manager",
+    "drawerSubtitle": "Personal, access and professional details",
+    "personalInfo": "Personal Information",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "First Name",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Last Name",
+    "email": "Email Address",
+    "emailPlaceholder": "Email Address",
+    "phoneNo": "Phone Number",
+    "phoneNoPlaceholder": "Phone Number",
+    "assignmentAccess": "Assignment & Status",
+    "assignedRegions": "Assigned Region(s)",
+    "assignedPatients": "Assigned Patients",
+    "assignedPatientsHint": "Select a region first",
+    "hhaPatients": "Patients assigned in HHAeXchange",
+    "hhaPatientsHint": "Assigned in HHAeXchange and kept in sync from there. Changing regions does not affect them.",
+    "status": "Status",
+    "professionalDetails": "Professional Details",
+    "title": "Title",
+    "titlePlaceholder": "e.g. Service Coordinator, Supports Coordinator",
+    "preferredContactMethod": "Preferred Contact Method",
+    "languagePreference": "Language Preference",
+    "startDate": "Start Date",
+    "notes": "Notes",
+    "notesPlaceholder": "Additional notes",
+    "closeButton": "Close",
+    "saveButton": "Save Changes",
+    "updateButton": "Update Case Manager",
+    "deleteTitle": "Archive Case Manager",
+    "deleteMessage": "Are you sure you want to archive {{name}}? The record is kept and not deleted.",
+    "deleteButton": "Archive",
+    "cancelButton": "Cancel",
+    "unassignPatientsTitle": "Remove assigned patients?",
+    "unassignPatientsMessage": "Changing the case manager will delete all the pending tasks (follow-up & Supervisory Visits) of the previous case manager. Are you sure you want to delete all the pending tasks?",
+    "unassignPatientsConfirm": "Remove",
+    "notFoundTitle": "Case Manager Not Found",
+    "notFoundMessage": "The case manager you are looking for does not exist or has been removed.",
+    "details": {
+      "role": "Case Manager",
+      "patients": "Assigned Patients",
+      "status": "Status",
+      "email": "Email",
+      "contact": "Contact",
+      "regions": "Assigned Regions",
+      "preferredContact": "Preferred Contact",
+      "source": "Source",
+      "hhaLastSyncedAt": "Last Synced",
+      "notes": "Notes",
+      "caseload": "Caseload",
+      "totalAssigned": "Total Assigned",
+      "followUpTasks": "Follow-Up Tasks",
+      "pendingToday": "Pending Today",
+      "supervisoryVisits": "Supervisory Visits",
+      "dueThisWeek": "Due This Week",
+      "table": {
+        "title": "Assigned Patients",
+        "noRowsLabel": "No patients assigned to this case manager yet",
+        "headers": {
+          "patientName": "PATIENT NAME",
+          "caregiver": "CAREGIVER",
+          "flagStatus": "FLAG STATUS"
+        }
+      }
+    },
+    "source": {
+      "manual": "Manual",
+      "hhaExchange": "HHAeXchange"
+    },
+    "sync": {
+      "managedBanner": "This case manager is synced from HHAeXchange. The greyed-out fields are managed there and cannot be edited here. Title, regions, manually assigned patients, phone, preferred contact, language, start date and notes are yours to set.",
+      "placeholderEmailBanner": "HHAeXchange had no email for this case manager, so a placeholder was generated. Replace it with a real address to invite them. If an email is later added in HHAeXchange, it replaces this one."
+    }
+  },
+  "nurse": {
+    "modalTitle": "Add New Nurse",
+    "editModalTitle": "Edit Nurse",
+    "drawerSubtitle": "Personal, licensing and region assignment details",
+    "personalInfo": "Personal Information",
+    "professionalInfo": "Professional Information",
+    "assignmentStatus": "Assignment & Status",
+    "addressInfo": "Address",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "First Name",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Last Name",
+    "email": "Work Email",
+    "emailPlaceholder": "Work Email",
+    "phoneNo": "Phone Number",
+    "phoneNoPlaceholder": "Phone Number",
+    "address": "Street Address",
+    "addressPlaceholder": "Street Address",
+    "city": "City",
+    "cityPlaceholder": "City",
+    "state": "State",
+    "statePlaceholder": "State",
+    "zipCode": "Zip Code",
+    "zipCodePlaceholder": "Zip Code",
+    "professionalRole": "Professional Role",
+    "licenseNumber": "License Number",
+    "licenseNumberPlaceholder": "License Number",
+    "licenseState": "License State",
+    "licenseExpirationDate": "License Expiration Date",
+    "npi": "NPI",
+    "npiPlaceholder": "NPI (National Provider Identifier)",
+    "primaryRegions": "Primary Regions",
+    "secondaryRegions": "Secondary Regions",
+    "nurseStatus": "Status",
+    "onCallIndicator": "On-Call",
+    "preferredContactMethod": "Preferred Contact Method",
+    "joiningDate": "Joining Date",
+    "notes": "Notes",
+    "notesPlaceholder": "Additional notes",
+    "sync": {
+      "managedBanner": "This nurse is synced from HHAeXchange. The greyed-out fields are managed there and cannot be edited here. License state and expiration date, secondary regions, on-call, preferred contact, joining date and notes are yours to set.",
+      "primaryRegionManagedHint": "Set from the nurse's address in HHAeXchange.",
+      "primaryRegionUnresolvedHint": "HHAeXchange's address did not match a region, so set the primary region here.",
+      "placeholderEmailBanner": "HHAeXchange had no email for this nurse, so a placeholder was generated. Replace it with a real address to invite them. If an email is later added in HHAeXchange, it replaces this one."
+    },
+    "source": {
+      "manual": "Manual",
+      "hhaExchange": "HHAeXchange"
+    },
+    "closeButton": "Close",
+    "saveButton": "Save Changes",
+    "updateButton": "Update Nurse",
+    "table": {
+      "title": "Nurses",
+      "searchPlaceholder": "Search Nurse",
+      "addButton": "Add New Nurse",
+      "headers": {
+        "nameEmail": "NAME & EMAIL",
+        "assignedAlerts": "ASSIGNED ALERTS",
+        "avgRespTime": "AVG RESP TIME",
+        "status": "STATUS",
+        "action": "ACTION",
+        "source": "SOURCE"
+      },
+      "alertsText": "Alerts",
+      "highText": "High",
+      "noRowsLabel": "No nurses found. Start adding nurses to get started."
+    },
+    "details": {
+      "role": "Nurse",
+      "tableTitle": "Assigned Patients",
+      "redFlags": "Critical alerts",
+      "yellowFlags": "Yellow Flags",
+      "greenFlags": "Green Flags",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "professionalRole": "Professional Role",
+      "licenseNumber": "License Number",
+      "licenseState": "License State",
+      "licenseExpiration": "License Expiration",
+      "npi": "NPI",
+      "primaryRegions": "Primary Regions",
+      "secondaryRegions": "Secondary Regions",
+      "preferredContact": "Preferred Contact",
+      "onCall": "On Call",
+      "joiningDate": "Joining Date",
+      "notes": "Notes",
+      "source": "Source",
+      "hhaLastSyncedAt": "Last Synced",
+      "patients": "Patients",
+      "status": "Status",
+      "onCallYes": "Yes",
+      "onCallNo": "No"
+    },
+    "deleteTitle": "Archive Nurse",
+    "deleteMessage": "Are you sure you want to archive {{name}}? The record is kept and not deleted.",
+    "deleteButton": "Archive",
+    "cancelButton": "Cancel",
+    "notFoundTitle": "Nurse Not Found",
+    "notFoundMessage": "The nurse you are looking for does not exist or has been removed."
+  },
+  "confirmDialog": {
+    "cancelLabel": "Cancel",
+    "confirmLabel": "Confirm",
+    "loadingLabel": "Loading..."
+  },
+  "contentNotAvailable": {
+    "title": "Content not available",
+    "message": "This record couldn't be found or took too long to load. Nothing in your records was changed.",
+    "goBack": "Go back"
+  },
+  "errorFallback": {
+    "heading": "500",
+    "title": "Something went wrong",
+    "message": "This page ran into an unexpected problem. Nothing in your records was changed. Try again, or go back to where you were.",
+    "goBack": "Go back",
+    "tryAgain": "Try again"
+  },
+  "accessDenied": {
+    "heading": "401",
+    "title": "You are not authorized!",
+    "message": "You don't have permission to view this page. Nothing in your records was changed.",
+    "goBack": "Go back",
+    "goToDashboard": "Go to dashboard"
+  },
+  "region": {
+    "table": {
+      "title": "Regions",
+      "addButton": "Add New Region",
+      "noRowsLabel": "No regions found. Start adding regions to get started."
+    },
+    "modalTitle": "Add New Region",
+    "editModalTitle": "Edit Region",
+    "drawerSubtitle": "The counties this region covers and the nurses assigned to it",
+    "name": "Region Name",
+    "namePlaceholder": "Enter region name",
+    "counties": "Counties",
+    "primaryNurse": "Primary Nurses",
+    "primaryNursePlaceholder": "Select primary nurses (optional)",
+    "secondaryNurse": "Secondary Nurses",
+    "secondaryNursePlaceholder": "Select secondary nurses (optional)",
+    "noEligibleNurses": "No active, verified nurses available",
+    "noCounties": "No counties assigned",
+    "deleteTitle": "Archive Region",
+    "deleteMessage": "Are you sure you want to archive {{name}}? The record is kept and not deleted.",
+    "deleteButton": "Archive",
+    "cancelButton": "Cancel",
+    "status": "Status",
+    "codeDerived": "· derived",
+    "codePlaceholder": "Generated on save",
+    "card": {
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "edit": "Edit",
+      "delete": "Archive",
+      "countiesHeading_one": "Counties · {{count}}",
+      "countiesHeading_other": "Counties · {{count}}",
+      "nurseCount_one": "{{count}} nurse",
+      "nurseCount_other": "{{count}} nurses",
+      "nurseCoverage": "Nurse coverage",
+      "addCounty": "+ Add county",
+      "unassigned": "Unassigned"
+    },
+    "countiesPlaceholder": "Search US counties, e.g. Washington, PA",
+    "noMatchingCounties": "No matching county",
+    "code": "Code",
+    "active": "Active",
+    "inactive": "Inactive",
+    "archived": "Archived",
+    "tabs": {
+      "ariaLabel": "Region status",
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive",
+      "archived": "Archived"
+    }
+  },
+  "assessmentChecklists": {
+    "title": "Assessment Checklists",
+    "backToList": "Back to checklists",
+    "basicDetails": "Basic Details",
+    "sectionsTitle": "Checklist Sections",
+    "notFoundTitle": "Checklist Not Found",
+    "notFoundMessage": "The checklist you are looking for does not exist or has been removed.",
+    "table": {
+      "headers": {
+        "name": "NAME",
+        "description": "DESCRIPTION",
+        "sections": "SECTIONS",
+        "questions": "QUESTIONS",
+        "type": "TYPE",
+        "status": "STATUS",
+        "createdAt": "CREATED",
+        "action": "ACTION"
+      },
+      "noRowsLabel": "No assessment checklists found. Start adding checklists to get started.",
+      "addButton": "New checklist"
+    },
+    "detailModalTitle": "Checklist Details",
+    "name": "Checklist Name",
+    "description": "Description",
+    "expandAll": "Expand All",
+    "collapseAll": "Collapse All",
+    "noSectionDescription": "No section description added.",
+    "sectionLabel": "Section {{index}}",
+    "sectionQuestionsCount": "{{count}} question",
+    "sectionQuestionsCount_other": "{{count}} questions",
+    "questionTypes": {
+      "textarea": "Text Area",
+      "number": "Number",
+      "boolean": "Yes / No",
+      "select": "Single Select",
+      "multiSelect": "Multi Select",
+      "date": "Date",
+      "checkbox": "Checkbox"
+    },
+    "details": {
+      "status": "Status",
+      "description": "Description",
+      "sections": "Sections",
+      "questions": "Questions",
+      "question": "Question",
+      "type": "Type",
+      "options": "Options"
+    },
+    "tabs": {
+      "ariaLabel": "Checklist status",
+      "active": "Active",
+      "draft": "Draft",
+      "archived": "Archived"
+    },
+    "status": {
+      "draft": "Draft",
+      "active": "Active",
+      "archived": "Archived"
+    },
+    "types": {
+      "patient": "Patient checklist",
+      "followUp": "Follow-up task",
+      "supervisoryVisit": "Supervisory visit"
+    },
+    "flags": {
+      "green": "Green",
+      "yellow": "Yellow",
+      "red": "Red"
+    },
+    "builder": {
+      "untitledItem": "Untitled item",
+      "itemCount": "{{count}} item",
+      "itemCount_other": "{{count}} items",
+      "editingItem": "Editing item {{item}}",
+      "required": "Required",
+      "optional": "Optional",
+      "answers": "Answers",
+      "answersWithFlags": "Answers · each one sets the flag it raises",
+      "fixErrors": "Fix the highlighted fields before saving.",
+      "cannotPublish": "Cannot publish yet",
+      "readyToPublish": "Ready to publish. Once published this checklist can no longer be edited.",
+      "fields": {
+        "name": "Name",
+        "description": "Description",
+        "sectionTitle": "Section title",
+        "question": "Question",
+        "answerType": "Answer type",
+        "answer": "Answer text",
+        "flag": "Flag"
+      },
+      "actions": {
+        "save": "Save draft",
+        "publish": "Publish",
+        "delete": "Archive draft",
+        "done": "Done",
+        "remove": "Remove",
+        "moveUp": "Move up",
+        "moveDown": "Move down",
+        "addSection": "Add section",
+        "addItem": "Add item",
+        "addAnswer": "Add answer"
+      },
+      "structure": {
+        "title": "Structure",
+        "sections": "Sections",
+        "items": "Items",
+        "requiredItems": "Required items",
+        "canRaiseRed": "Can raise a red flag",
+        "canRaiseYellow": "Can raise a yellow flag"
+      },
+      "issues": {
+        "noTitle": "Give the checklist a name.",
+        "noSections": "Add at least one section.",
+        "sectionNoTitle": "Section {{section}} needs a title.",
+        "sectionEmpty": "Section {{section}} has no items.",
+        "duplicateSections": "Two sections have the same title.",
+        "itemNoText": "Item {{item}} has no question text.",
+        "itemNoAnswers": "Item {{item}} needs at least one answer.",
+        "answerNoText": "Item {{item}} has an answer with no text.",
+        "duplicateAnswers": "Item {{item}} has two answers with the same text.",
+        "answerNoFlag": "Item {{item}} has an answer without a flag."
+      },
+      "confirm": {
+        "publish": {
+          "title": "Publish checklist?",
+          "message": "Unsaved changes are saved first. After publishing, the checklist can be assigned but can no longer be edited or deleted, only archived.",
+          "confirm": "Publish"
+        },
+        "delete": {
+          "title": "Archive draft?",
+          "message": "This draft and everything in it will be archived.",
+          "confirm": "Archive"
+        }
+      }
+    },
+    "typeHints": {
+      "patient": "Assigned to caregivers for a patient on a schedule; each answer can raise a green, yellow or red flag.",
+      "followUp": "Attached to a follow-up task; the case manager completes it.",
+      "supervisoryVisit": "Chosen when a supervisory visit is scheduled; the case manager completes it during the visit."
+    },
+    "create": {
+      "title": "New checklist",
+      "subtitle": "Starts as a draft. Nobody can be assigned it until you publish.",
+      "type": "Type",
+      "typePermanent": "· cannot be changed later",
+      "startFrom": "Start from an existing checklist (optional)",
+      "startFromPlaceholder": "Pick a type first, then a checklist to copy",
+      "noSources": "No checklists of this type yet",
+      "savedAsDraft": "Saved as a draft",
+      "submit": "Create & open builder"
+    },
+    "usage": {
+      "title": "In use",
+      "caregivers": "Caregivers",
+      "caseManagers": "Case managers",
+      "patients": "Patients",
+      "submissions": "Submissions",
+      "redFlags": "Red flags raised",
+      "tasks": "Follow-up tasks",
+      "visits": "Supervisory visits",
+      "completed": "Completed",
+      "lastSubmission": "Last submission",
+      "lastCompleted": "Last completed",
+      "never": "Not yet"
+    },
+    "detail": {
+      "questions": "Questions",
+      "structure": "{{sections}} · {{items}}",
+      "sectionCount_one": "{{count}} section",
+      "sectionCount_other": "{{count}} sections",
+      "itemCount_one": "{{count}} item",
+      "itemCount_other": "{{count}} items",
+      "noQuestions": "This checklist has no questions.",
+      "required": "Required",
+      "optional": "Optional",
+      "noFlag": "No flag",
+      "actions": {
+        "archive": "Archive",
+        "useAsStart": "Use as starting point"
+      },
+      "confirmArchive": {
+        "title": "Archive checklist?",
+        "message": "Nobody can be given this checklist from now on. Existing assignments keep running and past submissions stay readable. This cannot be undone.",
+        "confirm": "Archive"
+      }
+    }
+  },
+  "submissions": {
+    "title": "Submissions",
+    "table": {
+      "searchPlaceholder": "Search submissions",
+      "headers": {
+        "checklistName": "Checklist",
+        "checklistAndPatient": "Checklist and patient",
+        "caregiverName": "Assigned to",
+        "schedule": "Schedule",
+        "due": "Due",
+        "submittedAt": "Submitted",
+        "riskFlag": "Outcome",
+        "status": "Status",
+        "action": "Actions"
+      },
+      "noRowsLabel": "No submissions found yet."
+    },
+    "status": {
+      "upcoming": "Upcoming",
+      "pending": "Pending",
+      "late": "Late",
+      "submitted": "Submitted",
+      "reviewed": "Reviewed",
+      "missed": "Missed",
+      "skipped": "Skipped",
+      "voided": "Voided"
+    },
+    "notFoundTitle": "Submission Not Found",
+    "notFoundMessage": "The submission you are looking for does not exist or has been removed.",
+    "voidTitle": "Void Submission",
+    "voidMessage": "You are about to void the submission for {{name}}. Please provide a reason below.",
+    "schedule": {
+      "daily": "Daily checklist",
+      "weekly": "Weekly checklist",
+      "monthly": "Monthly checklist",
+      "assignedBy": "by {{name}}"
+    },
+    "due": {
+      "windowUntil": "Open until {{deadline}}",
+      "windowClosed": "Closed {{deadline}}"
+    },
+    "missReason": {
+      "graceExpired": "Not submitted before the grace deadline ({{deadline}}).",
+      "skipped": "Skipped by staff: {{reason}}",
+      "skippedNoReason": "Skipped by staff."
+    },
+    "guidance": {
+      "upcoming": "Opens on {{due}}. Skip it ahead of time if the checklist will not be needed.",
+      "pending": "Due today. The caregiver can still submit until {{deadline}}.",
+      "late": "Overdue. Contact the caregiver; submissions close on {{deadline}}. Skip it if the checklist is no longer needed.",
+      "missed": "The window closed on {{deadline}}. Create a follow-up task to check on the patient, or void it if the checklist was not required."
+    },
+    "nextStep": {
+      "title": "Next step"
+    },
+    "actions": {
+      "skip": "Skip",
+      "void": "Void",
+      "createFollowUp": "Create follow-up task"
+    },
+    "skipDialog": {
+      "title": "Skip submission",
+      "message": "Skip {{name}}? The caregiver will no longer be asked to submit it.",
+      "reason": "Reason",
+      "reasonPlaceholder": "Why is this checklist not needed?",
+      "confirm": "Skip submission",
+      "dismiss": "Keep it"
+    },
+    "detail": {
+      "title": "Patient Checklist",
+      "backToList": "Back to submissions",
+      "patientDetails": "Patient Details",
+      "riskReport": "The outcome",
+      "caregiverDetails": "Caregiver Details",
+      "visitDetails": "Visit Details",
+      "name": "Name",
+      "email": "Email",
+      "address": "Address",
+      "phone": "Phone",
+      "riskFlag": "Flag",
+      "riskScore": "Score",
+      "riskCategory": "Category",
+      "visitNotes": "Completion Notes",
+      "visitInstructions": "Visit Instructions",
+      "completedBy": "by {{name}}",
+      "submittedOn": "Submitted on",
+      "submittedAt": "Submitted",
+      "completedAt": "Completed",
+      "voidedAt": "Voided On",
+      "voidReason": "Void Reason",
+      "lastEdited": "Last edited",
+      "assessment": "Assessment",
+      "photos": "Photos",
+      "attachments": "Attachments",
+      "notes": "Notes",
+      "noAnswers": "No responses recorded for this submission.",
+      "notProvided": "Not provided",
+      "extraNote": "Extra note",
+      "questionUnavailable": "Question no longer in this checklist",
+      "viewProfile": "View profile",
+      "scheduleAndDue": "Schedule and due date",
+      "schedule": "Schedule",
+      "scheduledBy": "Scheduled by",
+      "assignedTo": "Assigned to",
+      "dueDate": "Due date",
+      "window": "Window closes",
+      "lateness": "Lateness",
+      "missReason": "Miss reason"
+    },
+    "tabs": {
+      "ariaLabel": "Submission view"
+    }
+  },
+  "settings": {
+    "personalDetailsHeading": "Personal Details",
+    "passwordDetailsHeading": "Change Password",
+    "updateButtonText": "Update",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "First Name",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Last Name",
+    "email": "Email",
+    "emailPlaceholder": "Email",
+    "phoneNo": "Phone Number",
+    "phoneNoPlaceholder": "Phone Number",
+    "address": "Address",
+    "addressPlaceholder": "Address",
+    "city": "City",
+    "cityPlaceholder": "City",
+    "zipCode": "Zip Code",
+    "zipCodePlaceholder": "Zip Code",
+    "saveChanges": "Save Changes",
+    "reset": "Reset",
+    "profilePhoto": {
+      "uploadNewPhoto": "Upload photo",
+      "reset": "Remove",
+      "allowedFormats": "Allowed JPG or PNG. Max size of 800K",
+      "altText": "Profile Photo"
+    }
+  },
+  "recordActions": {
+    "edit": "Edit record",
+    "archive": "Archive record",
+    "delete": "Archive record"
+  },
+  "patients": {
+    "title": "Patients",
+    "backToList": "Back to patients",
+    "description": "Patients Management",
+    "stats": {
+      "patientsTitle": "Patients",
+      "patientsSubtitle": "Total Managed"
+    },
+    "table": {
+      "searchPlaceholder": "Search patients",
+      "addButton": "Add patient",
+      "noRowsLabel": "No patients found. Start adding patients to get started.",
+      "filterArchiveLabel": "Patient View",
+      "filterArchiveActive": "Active",
+      "filterArchiveAll": "All",
+      "filterArchiveArchived": "Archived",
+      "headers": {
+        "name": "Patient",
+        "diagnosis": "Diagnosis",
+        "region": "Region",
+        "careTeam": "Care team",
+        "recentFlags": "Recent flag",
+        "nextDue": "Next due",
+        "status": "Status",
+        "source": "Source",
+        "action": "Actions"
+      },
+      "careTeamNone": "Unassigned",
+      "noRecentFlag": "None",
+      "editCareTeam": "Edit care team",
+      "filterArchiveDischarged": "Discharged",
+      "filterStatusWaiting": "Waiting",
+      "filterStatusHold": "Hold",
+      "filterStatusHospitalized": "Hospitalized"
+    },
+    "modalTitle": "Add New Patient",
+    "editModalTitle": "Edit Patient",
+    "assignmentsDisabledTooltip": "Assignments can only be created for active patients",
+    "drawerSteps": {
+      "label": "Patient form steps",
+      "details": "Patient details",
+      "careTeam": "Care team",
+      "counter": "Step {{current}} of {{total}}"
+    },
+    "saveAndContinue": "Save and continue",
+    "backButton": "Back",
+    "careTeam": {
+      "nurses": "Nurses",
+      "nursesHint": "Only nurses who cover {{county}} are listed.",
+      "primaryNurseHhaHint": "The primary nurse is assigned in HHAeXchange.",
+      "noHhaPrimaryNurse": "None assigned in HHAeXchange",
+      "primaryNurseHhaUnassignedHint": "HHAeXchange has not assigned a primary nurse, so you can pick one here. Only verified nurses who cover the patient's region as primary are listed, so the patient needs a county first.",
+      "primaryNurseWaitingHint": "HHAeXchange assigns {{name}}, who is not active in PreventaTri yet. You can pick another primary nurse until they are.",
+      "caseManager": "Case manager",
+      "caseManagerPlaceholder": "Select a case manager",
+      "noHhaCaseManager": "None assigned in HHAeXchange",
+      "noEligibleCaseManagers": "No active case managers found",
+      "caseManagerHhaHint": "The case manager is assigned in HHAeXchange.",
+      "caseManagerWaitingHint": "HHAeXchange names {{name}}, who is not active in PreventaTri yet. You can pick another case manager until they are.",
+      "caseManagerPickedHint": "An admin picked this case manager, so it can be changed here.",
+      "assessments": "Caregiver assessments",
+      "addAssessment": "Add assessment",
+      "assessment": "Assessment",
+      "newTag": "New",
+      "empty": "No assessments yet. You can add them now or later.",
+      "removedOnSave": "Removed on save",
+      "undo": "Undo",
+      "removeAssessment": "Remove assessment",
+      "discardAssessment": "Discard new assessment",
+      "editAssessment": "Edit new assessment",
+      "addToList": "Add",
+      "dateRange": "{{startDate}} → {{endDate}}",
+      "inactiveNotice": "Assignments can only be created for active patients. Set the status to Active in Patient details to manage assessments.",
+      "inactiveNoticeHha": "Assignments can only be created for active patients. This patient's status comes from HHAeXchange, so it becomes Active here once the patient is active in HHAeXchange.",
+      "saveButton": "Save"
+    },
+    "checklistTemplate": "Checklist Template",
+    "caregiver": "Caregiver",
+    "caregiverSearchPlaceholder": "Search caregivers by name",
+    "noMatchingCaregivers": "No caregivers match that name",
+    "assignmentStartDate": "Start Date",
+    "assignmentEndDate": "End Date",
+    "assignmentFrequency": "Frequency",
+    "assignmentNotes": "Notes",
+    "assignmentNotesPlaceholder": "Notes",
+    "personalInfo": "Personal Information",
+    "locationAssignment": "Location & Assignment",
+    "addressInfo": "Address",
+    "additionalInfo": "Additional Information",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "First Name",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Last Name",
+    "dob": "Date of Birth",
+    "gender": "Gender",
+    "county": "County",
+    "assignedRegion": "Assigned Region",
+    "primaryNurse": "Primary Nurse",
+    "primaryNursePlaceholder": "Select a primary nurse (optional)",
+    "secondaryNurse": "Secondary Nurse",
+    "secondaryNursePlaceholder": "Select a secondary nurse (optional)",
+    "selectCountyFirst": "Select a county first",
+    "noEligibleNurses": "No nurses available for this region",
+    "status": "Status",
+    "streetAddress": "Street Address",
+    "streetAddressPlaceholder": "Street Address",
+    "city": "City",
+    "cityPlaceholder": "City",
+    "zipCode": "ZIP Code",
+    "zipCodePlaceholder": "ZIP Code",
+    "phoneNo": "Phone Number",
+    "phoneNoPlaceholder": "Phone Number",
+    "emergencyContact": "Emergency Contact",
+    "emergencyContactPlaceholder": "Emergency Contact",
+    "medicaidId": "Medicaid ID",
+    "medicaidIdPlaceholder": "Medicaid ID",
+    "diagnoses": "Diagnoses",
+    "diagnosesPlaceholder": "Diagnoses",
+    "notes": "Notes",
+    "notesPlaceholder": "Additional notes (admin-only)",
+    "closeButton": "Close",
+    "saveButton": "Save Changes",
+    "updateButton": "Update Patient",
+    "archiveTitle": "Archive Patient",
+    "archiveMessage": "Are you sure you want to archive {{name}}? They will move to the Archived tab.",
+    "archiveWarningAssessments": "All of this patient's upcoming and late assessments will be deleted. Completed assessments will be preserved.",
+    "archiveButton": "Archive",
+    "cancelButton": "Cancel",
+    "notFoundTitle": "Patient Not Found",
+    "notFoundMessage": "The patient you are looking for does not exist or has been removed.",
+    "details": {
+      "dob": "Date of Birth",
+      "gender": "Gender",
+      "phone": "Phone",
+      "email": "Email",
+      "emergencyContact": "Emergency Contact",
+      "address": "Address",
+      "county": "County",
+      "region": "Region",
+      "primaryNurse": "Primary Nurse",
+      "secondaryNurse": "Secondary Nurse",
+      "caseManager": "Case Manager",
+      "caregiver": "Caregiver",
+      "medicaidId": "Medicaid ID",
+      "diagnoses": "Diagnoses",
+      "notes": "Notes",
+      "table": {
+        "title": "Checklist submissions",
+        "noRowsLabel": "No checklist submissions yet."
+      },
+      "redFlagsTable": {
+        "title": "Alerts",
+        "noRowsLabel": "No alerts for this patient."
+      },
+      "assignments": {
+        "title": "Caregiver checklists",
+        "assignCaregiver": "Assign caregiver",
+        "checklist": "Checklist",
+        "caregiver": "Caregiver",
+        "frequency": "Frequency",
+        "startDate": "Starts",
+        "endDate": "Ends",
+        "empty": "No checklists are assigned to this patient yet."
+      },
+      "slaBreachCard": {
+        "title": "SLA Breach Expected",
+        "acceptedTitle": "You accepted this alert. Resolve it when it is handled.",
+        "timeRemaining": "remaining",
+        "noExpiry": "No expiry",
+        "hour": "hour",
+        "hours": "hours",
+        "minute": "minute",
+        "minutes": "minutes",
+        "resolveButton": "Resolve now"
+      },
+      "title": "Patient details",
+      "careTeam": {
+        "title": "Care team",
+        "unassigned": "Unassigned",
+        "hhaCoordinator": "HHAeXchange coordinator",
+        "changeCaseManager": "Change case manager"
+      },
+      "timeline": {
+        "title": "Patient history",
+        "emptyMessage": "No activity yet.",
+        "system": "System",
+        "events": {
+          "PATIENT_ADDED": "Patient added",
+          "PATIENT_UPDATED": "Patient updated",
+          "ASSIGNMENT_CREATED": "Assessment assigned",
+          "ASSIGNMENT_REMOVED": "Assessment unassigned",
+          "ASSESSMENT_SUBMITTED": "Assessment submitted",
+          "FOLLOW_UP_TASK_CREATED": "Follow-up created",
+          "FOLLOW_UP_TASK_COMPLETED": "Follow-up completed",
+          "SUPERVISORY_VISIT_SCHEDULED": "Visit scheduled",
+          "SUPERVISORY_VISIT_COMPLETED": "Visit completed"
+        },
+        "flags": {
+          "FLAG_RAISED": {
+            "RED": "Red flag raised",
+            "YELLOW": "Yellow flag raised",
+            "GREEN": "Green flag raised"
+          },
+          "FLAG_RESOLVED": {
+            "RED": "Red flag resolved",
+            "YELLOW": "Yellow flag resolved",
+            "GREEN": "Green flag resolved"
+          }
+        }
+      }
+    },
+    "drawerSubtitle": "Records are archived, never deleted",
+    "sync": {
+      "managedBanner": "This patient is synced from HHAeXchange. The greyed-out fields, the case manager and the primary nurse HHAeXchange assigns are managed there and cannot be edited here.",
+      "countyManagedHint": "Set from the patient's ZIP code in HHAeXchange.",
+      "countyUnresolvedHint": "HHAeXchange's ZIP code did not match a county, so set it here."
+    },
+    "source": {
+      "manual": "Manual",
+      "hhaExchange": "HHAeXchange"
+    }
+  },
+  "hhaVisits": {
+    "table": {
+      "title": "HHA Visits",
+      "searchPlaceholder": "Search by patient or caregiver",
+      "noRowsLabel": "No visits have been synced from HHAeXchange yet",
+      "headers": {
+        "visitDate": "Visit Date",
+        "patient": "Patient",
+        "caregiver": "Caregiver",
+        "scheduled": "Scheduled Time",
+        "visitTime": "Visit Time",
+        "status": "Status",
+        "visitType": "Visit Type",
+        "lastModified": "Last Modified"
+      }
+    },
+    "statuses": {
+      "scheduled": "Scheduled",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "missed": "Missed",
+      "deleted": "Deleted",
+      "unconfirmed": "Unconfirmed"
+    },
+    "visitTypes": {
+      "dailyFixed": "Daily Fixed",
+      "dailyVariable": "Daily Variable",
+      "weeklyVariable": "Weekly Variable",
+      "noSchedule": "No Schedule"
+    },
+    "detail": {
+      "title": "HHAeXchange Visit",
+      "sections": {
+        "visit": "Visit",
+        "schedule": "Schedule",
+        "visitTime": "Visit Time",
+        "missed": "Missed Visit",
+        "deleted": "Deleted in HHAeXchange",
+        "sync": "Sync"
+      },
+      "labels": {
+        "patient": "Patient",
+        "caregiver": "Caregiver",
+        "visitDate": "Visit Date",
+        "visitType": "Visit Type",
+        "scheduledStart": "Start",
+        "scheduledEnd": "End",
+        "duration": "Duration",
+        "timeZone": "Time Zone",
+        "actualStart": "Start",
+        "actualEnd": "End",
+        "evvStart": "EVV Clock-in",
+        "evvEnd": "EVV Clock-out",
+        "clockIn": "Clock-in Type",
+        "clockOut": "Clock-out Type",
+        "missedReason": "Reason",
+        "deletedAt": "Deleted On",
+        "deletedReason": "Reason",
+        "hhaModifiedDate": "Last Modified",
+        "hhaLastSyncedAt": "Last Synced"
+      }
+    },
+    "tabs": {
+      "ariaLabel": "Visit status"
+    }
+  },
+  "hhaSync": {
+    "button": "Sync from HHAeXchange",
+    "confirmTitle": "Sync from HHAeXchange",
+    "confirmLabel": "Sync now",
+    "cancelLabel": "Cancel",
+    "queuedMessage": "Sync started. This runs in the background and can take a few minutes — carry on working and we'll let you know the moment it's done.",
+    "inProgressLabel": "Syncing…",
+    "completedToast": "HHAeXchange sync finished. Your lists have been updated.",
+    "failedToast": "HHAeXchange sync failed. Check your notifications for details.",
+    "confirm": {
+      "intro": "This brings the latest records across from HHAeXchange and updates the ones already here.",
+      "imported": {
+        "title": "What gets imported",
+        "patients": {
+          "label": "Patients",
+          "text": "new ones are added, existing ones are updated — including county, primary nurse and case manager. A nurse or case manager is assigned only once they accepted an invitation and are active; until then they are listed on the Exceptions tab."
+        },
+        "caregivers": {
+          "label": "Caregivers",
+          "text": "new ones are added, existing ones are updated."
+        },
+        "caseManagers": {
+          "label": "Case managers",
+          "text": "created for review — no invitation is sent."
+        },
+        "nurses": {
+          "label": "Nurses",
+          "text": "created for review — no invitation is sent. The primary region comes from their address."
+        },
+        "visits": {
+          "label": "Visits",
+          "text": "read-only, and never linked to PreventaTri patients or caregivers."
+        }
+      },
+      "untouched": {
+        "title": "What the sync never changes",
+        "patients": {
+          "label": "Patients",
+          "text": "secondary nurse, risk level, diagnoses and notes — and the county when HHAeXchange's ZIP code matches no county."
+        },
+        "caregivers": {
+          "label": "Caregivers",
+          "text": "relationship, preferred contact, on-call, patient assignments and notes."
+        },
+        "caseManagers": {
+          "label": "Case managers",
+          "text": "title, regions, manually assigned patients, phone, preferred contact, language, start date and notes."
+        },
+        "nurses": {
+          "label": "Nurses",
+          "text": "license state and expiration date, secondary regions, on-call, preferred contact, joining date and notes — and the primary region when their address matches no region."
+        }
+      },
+      "beforeYouStart": {
+        "title": "Before you start",
+        "overwrite": {
+          "label": "Fields managed by HHAeXchange",
+          "text": "are overwritten with their HHAeXchange values."
+        },
+        "background": {
+          "label": "Runs in the background",
+          "text": "and can take a few minutes."
+        },
+        "notification": {
+          "label": "You'll be notified",
+          "text": "the moment it finishes — carry on working meanwhile."
+        }
+      }
+    }
+  },
+  "hhaSyncHistory": {
+    "title": "HHA Sync",
+    "views": {
+      "ariaLabel": "HHA sync history view",
+      "runs": "Runs",
+      "changes": "Changes",
+      "exceptions": "Exceptions",
+      "emails": "Shared emails",
+      "coordinators": "Coordinators"
+    },
+    "tabs": {
+      "runStatusAriaLabel": "Run status",
+      "changeResourceAriaLabel": "Record type",
+      "exceptionStatusAriaLabel": "Exception status",
+      "emailStatusAriaLabel": "Shared email status",
+      "coordinatorChoiceAriaLabel": "Case manager choice"
+    },
+    "kinds": {
+      "nurse": "Nurse",
+      "caregiver": "Caregiver",
+      "caseManager": "Case manager",
+      "user": "User"
+    },
+    "emails": {
+      "noRowsLabel": "No one shares an HHAeXchange email here",
+      "headers": {
+        "email": "HHAeXchange email",
+        "people": "People with this email",
+        "status": "Status"
+      },
+      "needsAttention": "Needs attention",
+      "resolved": "Resolved",
+      "loginEmail": "Login email: {{email}}",
+      "changeEmail": "Change email",
+      "filters": {
+        "needsAttention": "Needs attention",
+        "resolved": "Resolved"
+      },
+      "states": {
+        "usesEmail": "Logs in with this email",
+        "needsEmail": "No login email yet",
+        "adminSet": "Email set by admin",
+        "otherEmail": "Still on old email",
+        "notImported": "Not imported yet",
+        "emailSaved": "Email saved, imports on next sync"
+      },
+      "dialog": {
+        "title": "Change login email",
+        "message": "{{name}} shares {{email}} with someone else in HHAeXchange. Enter a unique email they will use to log in to PreventaTri. Later syncs keep it.",
+        "pendingMessage": "{{name}} is not imported yet, because {{email}} already belongs to someone else. Enter a unique email they will use to log in to PreventaTri. They are imported from HHAeXchange as soon as you save.",
+        "emailLabel": "Login email",
+        "emailPlaceholder": "name@example.com",
+        "invalidEmail": "Enter a valid email address",
+        "save": "Save email",
+        "cancel": "Cancel"
+      }
+    },
+    "coordinators": {
+      "noRowsLabel": "No patient has more than one HHAeXchange coordinator",
+      "headers": {
+        "patient": "Patient",
+        "coordinators": "HHAeXchange coordinators",
+        "choice": "Case manager",
+        "action": "Actions"
+      },
+      "caseManager": "Case manager",
+      "notSynced": "Not a case manager here",
+      "archived": "Archived here",
+      "notActive": "Not active yet",
+      "chosen": "Chosen by an admin",
+      "firstByDefault": "First coordinator (default)",
+      "choose": "Choose case manager",
+      "filters": {
+        "needsChoice": "Not chosen yet",
+        "chosen": "Chosen"
+      },
+      "dialog": {
+        "title": "Choose case manager",
+        "message": "HHAeXchange lists these coordinators for {{name}}. Pick the one who is the case manager in PreventaTri. The others are listed for reference only.",
+        "ariaLabel": "HHAeXchange coordinators",
+        "current": "Current case manager",
+        "save": "Save",
+        "cancel": "Cancel"
+      }
+    },
+    "runStatuses": {
+      "running": "Running",
+      "succeeded": "Succeeded",
+      "withExceptions": "Completed with exceptions",
+      "partial": "Partly failed",
+      "failed": "Failed",
+      "abandoned": "Abandoned"
+    },
+    "triggers": {
+      "scheduled": "Auto",
+      "manual": "Sync button"
+    },
+    "resources": {
+      "caseManagers": "Case managers",
+      "nurses": "Nurses",
+      "caregivers": "Caregivers",
+      "patients": "Patients",
+      "visits": "Visits"
+    },
+    "actions": {
+      "created": "Created",
+      "updated": "Updated",
+      "linkChanged": "Link changed",
+      "emailChanged": "Email changed",
+      "adopted": "Linked to existing user",
+      "reclassified": "Caregiver became nurse",
+      "purged": "Caregiver profile removed",
+      "deletedInHha": "Deleted in HHAeXchange"
+    },
+    "exceptionStatuses": {
+      "open": "Open",
+      "resolved": "Resolved",
+      "dismissed": "Dismissed",
+      "autoResolved": "Resolved by sync"
+    },
+    "fixIn": {
+      "hha": "Fix in HHAeXchange",
+      "preventatri": "Fix in PreventaTri",
+      "dev": "Report to dev",
+      "none": "No action needed"
+    },
+    "fields": {
+      "county": "County",
+      "primaryNurse": "Primary nurse",
+      "secondaryNurse": "Secondary nurse",
+      "caseManager": "Case manager",
+      "primaryRegion": "Primary region",
+      "user": "User",
+      "caregiverProfile": "Caregiver profile",
+      "email": "Email",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "dateOfBirth": "Date of birth",
+      "status": "Status",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "zipCode": "ZIP code",
+      "phone": "Phone",
+      "changed": "changed",
+      "none": "none",
+      "gender": "Gender",
+      "medicaidId": "Medicaid ID",
+      "emergencyContact": "Emergency contact",
+      "role": "Role",
+      "language": "Language",
+      "startDate": "Start date",
+      "terminationDate": "Termination date",
+      "professionalRole": "Professional role",
+      "licenseNumber": "Licence number",
+      "npi": "NPI",
+      "hhaPatientId": "HHA patient",
+      "hhaCaregiverId": "HHA caregiver",
+      "patientFirstName": "Patient first name",
+      "patientLastName": "Patient last name",
+      "caregiverFirstName": "Caregiver first name",
+      "caregiverLastName": "Caregiver last name",
+      "visitDate": "Visit date",
+      "visitType": "Visit type",
+      "timeZone": "Time zone",
+      "scheduledStartAt": "Scheduled start",
+      "scheduledEndAt": "Scheduled end",
+      "scheduleDurationMinutes": "Scheduled minutes",
+      "actualStartAt": "Actual start",
+      "actualEndAt": "Actual end",
+      "evvStartAt": "EVV clock-in",
+      "evvEndAt": "EVV clock-out",
+      "clockInEvvType": "Clock-in type",
+      "clockOutEvvType": "Clock-out type",
+      "isMissedVisit": "Missed visit",
+      "missedReasonId": "Missed reason id",
+      "missedReason": "Missed reason"
+    },
+    "runs": {
+      "noRowsLabel": "No HHAeXchange sync has run yet",
+      "headers": {
+        "startedAt": "Started",
+        "trigger": "Trigger",
+        "status": "Status",
+        "duration": "Duration",
+        "created": "Created",
+        "updated": "Updated",
+        "exceptions": "Exceptions"
+      },
+      "detail": {
+        "title": "Sync run",
+        "startedBy": "Started by",
+        "auto": "Auto",
+        "duration": "Duration",
+        "changes": "Changes recorded",
+        "exceptions": "Exceptions reported",
+        "errorId": "Error code",
+        "timelineTitle": "Timeline",
+        "started": "Run started",
+        "finished": "Run finished",
+        "resourceDone": "{{resource}} finished",
+        "resourceDoneWithExceptions": "{{resource}} finished with exceptions",
+        "resourceFailed": "{{resource}} failed",
+        "notFinished": "Still running",
+        "counters": {
+          "seen": "Read",
+          "created": "Created",
+          "updated": "Updated",
+          "skipped": "Unchanged or skipped",
+          "failed": "Failed",
+          "linksChanged": "Links changed",
+          "emailsChanged": "Emails changed",
+          "exceptions": "Exceptions",
+          "blocking": "Blocking exceptions",
+          "warnings": "Warnings"
+        },
+        "summaryTitle": "Run summary",
+        "startedAt": "Started",
+        "finishedAt": "Finished",
+        "resourcesTitle": "By record type",
+        "recordsAriaLabel": "Records from this run",
+        "changesTab": "Changes",
+        "exceptionsTab": "Exceptions",
+        "notFoundTitle": "Sync run not found",
+        "notFoundMessage": "This sync run does not exist or was removed."
+      }
+    },
+    "changes": {
+      "noRowsLabel": "No changes recorded yet",
+      "actionFilter": "Change",
+      "headers": {
+        "when": "When",
+        "type": "Type",
+        "record": "Record",
+        "action": "Change",
+        "fields": "What changed"
+      },
+      "hhaId": "HHA id {{id}}"
+    },
+    "exceptions": {
+      "noRowsLabel": "No exceptions here",
+      "typeFilter": "Exception",
+      "resourceFilter": "Record type",
+      "headers": {
+        "type": "Exception",
+        "record": "Record",
+        "fixIn": "Fix in",
+        "status": "Status",
+        "occurrences": "Times seen",
+        "lastSeen": "Last seen"
+      },
+      "detail": {
+        "title": "Sync exception",
+        "whatHappened": "What happened",
+        "adminAction": "What to do",
+        "fixIn": "Fix in",
+        "afterFix": "After fixing",
+        "afterFixSteps": {
+          "hha": "Sync again. The sync closes this once it reads the corrected record.",
+          "preventatri": "Fix it here. Nothing needs changing in HHAeXchange."
+        },
+        "record": "Record",
+        "detail": "Detail",
+        "relatedUser": "Already used by",
+        "occurrences": "Times seen",
+        "firstSeen": "First seen",
+        "lastSeen": "Last seen",
+        "resolution": "Resolution note",
+        "closedBy": "Closed by",
+        "closedAt": "Closed on",
+        "lastClosedBy": "Last closed by",
+        "lastClosedAt": "Last closed on",
+        "reopenedBy": "Reopened by",
+        "reopenedAt": "Reopened on",
+        "reopenedBySync": "A later sync (the problem came back)",
+        "fixHere": "Open in PreventaTri",
+        "resolve": "Resolve",
+        "dismiss": "Dismiss",
+        "reopen": "Reopen",
+        "addCounty": "Add county to a region"
+      },
+      "countyDialog": {
+        "title": "Add {{county}} to a region",
+        "message": "Patients already imported from this county get it right away. Nurses get their region on the next sync.",
+        "regionLabel": "Region",
+        "regionPlaceholder": "Select a region",
+        "confirm": "Add county"
+      },
+      "conflicts": {
+        "nurse": {
+          "hhaPerson": "HHAeXchange nurse",
+          "current": "PreventaTri nurse",
+          "keep": "Keep PreventaTri nurse",
+          "use": "Use HHAeXchange nurse",
+          "keepTitle": "Keep the PreventaTri nurse?",
+          "keepMessage": "{{current}} stays the primary nurse. This conflict will not be reported again unless HHAeXchange assigns a different nurse.",
+          "useTitle": "Use the HHAeXchange nurse?",
+          "useMessage": "{{hha}} replaces {{current}} as the primary nurse. The field is then managed in HHAeXchange and cannot be edited here.",
+          "unknown": "the current nurse"
+        },
+        "caseManager": {
+          "hhaPerson": "HHAeXchange case manager",
+          "current": "Current case manager",
+          "keep": "Keep current case manager",
+          "use": "Use HHAeXchange case manager",
+          "keepTitle": "Keep the current case manager?",
+          "keepMessage": "{{current}} stays the case manager. This conflict will not be reported again unless HHAeXchange names a different case manager.",
+          "useTitle": "Use the HHAeXchange case manager?",
+          "useMessage": "{{hha}} replaces {{current}} as the case manager. The field is then managed in HHAeXchange and cannot be edited here.",
+          "unknown": "the current case manager"
+        }
+      },
+      "invite": {
+        "send": "Send invitation",
+        "resend": "Resend invitation",
+        "blocked": {
+          "needsEmail": "Set a login email on their profile before inviting them.",
+          "alreadyInvited": "An invitation was sent and is still open.",
+          "other": "This person cannot be invited right now."
+        }
+      },
+      "waiting": {
+        "person": "Waiting for",
+        "title": "Patients waiting: {{count}}",
+        "count": "Patients waiting: {{count}}",
+        "empty": "No patient is waiting for this person any more.",
+        "current": "Now: {{name}}",
+        "nobody": "Nobody assigned",
+        "more": "Not listed here: {{count}}"
+      },
+      "noteDialog": {
+        "resolveTitle": "Resolve exception",
+        "dismissTitle": "Dismiss exception",
+        "message": "Add a note so the next admin knows what was done. A resolved exception reopens if a later sync reports it again; a dismissed one stays dismissed.",
+        "noteLabel": "Note",
+        "notePlaceholder": "e.g. Email corrected in HHAeXchange",
+        "cancel": "Cancel"
+      }
+    },
+    "exceptionTypes": {
+      "MISSING_PATIENT_ID": {
+        "title": "Patient without an id",
+        "happened": "An HHAeXchange patient record had no patient id, so it was skipped.",
+        "action": "Report the record to HHAeXchange support."
+      },
+      "MISSING_REQUIRED_FIELD": {
+        "title": "Required field missing",
+        "happened": "A required field (such as first or last name) was empty, so the record was skipped.",
+        "action": "Complete the record in HHAeXchange."
+      },
+      "UNMAPPED_STATUS_ID": {
+        "title": "Unknown patient status",
+        "happened": "HHAeXchange sent a status PreventaTri does not know. The patient was imported as Active.",
+        "action": "Check the status in HHAeXchange; ask dev to map the new value."
+      },
+      "UNMAPPED_GENDER": {
+        "title": "Unknown gender",
+        "happened": "HHAeXchange sent a gender value PreventaTri does not know. The patient was imported without a gender.",
+        "action": "Correct the gender in HHAeXchange."
+      },
+      "ARCHIVED_PATIENT_UPDATED": {
+        "title": "Archived patient changed",
+        "happened": "An archived patient changed in HHAeXchange. It was updated and stays archived.",
+        "action": "Decide whether the patient should be active again."
+      },
+      "UPSERT_FAILED": {
+        "title": "Save failed",
+        "happened": "A database write failed, so this record was left unchanged.",
+        "action": "Run the sync again; if it repeats, report it to dev."
+      },
+      "MISSING_COUNTY_ZIP": {
+        "title": "No ZIP code",
+        "happened": "The patient has no ZIP code in HHAeXchange, so no county could be set.",
+        "action": "Add the ZIP in HHAeXchange; the next sync clears this and sets the county if this organization has it. To route the patient sooner, set the county on the patient here. Until then, if the patient has no county, its flags go straight to the admin."
+      },
+      "UNRESOLVED_COUNTY_ZIP": {
+        "title": "ZIP not recognized",
+        "happened": "The ZIP code from HHAeXchange is not in the US ZIP-to-county table, or it is split between counties, so the county was left as is.",
+        "action": "Check the ZIP in HHAeXchange and correct it; the next sync clears this. If the ZIP is right (a PO box, or a ZIP split between counties), set the county on the patient here and dismiss this. Until then, if the patient has no county, its flags go straight to the admin."
+      },
+      "COUNTY_NOT_IN_ORGANIZATION": {
+        "title": "County not set up",
+        "happened": "The ZIP is valid, but it resolves to a county this organization does not have yet, so the county was left as is.",
+        "action": "Add the county to a region here; nothing needs changing in HHAeXchange. Or set another county on the patient and dismiss this. Until then, if the patient has no county, its flags go straight to the admin."
+      },
+      "ZIP_STATE_MISMATCH": {
+        "title": "State and ZIP do not match",
+        "happened": "The ZIP code belongs to a different state than the one on the address, so the county was left as is.",
+        "action": "Correct the state or ZIP in HHAeXchange; the next sync clears this. To route the patient sooner, set the county on the patient here. Until then, if the patient has no county, its flags go straight to the admin."
+      },
+      "OUT_OF_STATE_ZIP": {
+        "title": "Address in another state",
+        "happened": "An earlier sync only placed ZIP codes in one state, so this address got no county. ZIP codes now resolve in every state.",
+        "action": "Run a sync; it closes this. If it stays open after a sync, HHAeXchange no longer sends this patient, so dismiss it."
+      },
+      "PATIENT_NURSE_ELEMENT_MISSING": {
+        "title": "Nurse field missing from feed",
+        "happened": "HHAeXchange stopped sending the nurse on a whole page, so every nurse link was kept.",
+        "action": "Report to dev: the HHAeXchange feed changed."
+      },
+      "PATIENT_COORDINATOR_ELEMENT_MISSING": {
+        "title": "Coordinator field missing from feed",
+        "happened": "HHAeXchange stopped sending coordinators on a whole page, so every case manager link was kept.",
+        "action": "Report to dev: the HHAeXchange feed changed."
+      },
+      "UNKNOWN_HHA_NURSE": {
+        "title": "Unknown nurse",
+        "happened": "HHAeXchange assigns a nurse who is not in PreventaTri. The current primary nurse was kept.",
+        "action": "Sync nurses, or reassign the nurse in HHAeXchange. Until then an admin can pick a primary nurse on the patient; this exception stays open while HHAeXchange names the missing nurse."
+      },
+      "NO_HHA_COORDINATOR": {
+        "title": "No coordinator",
+        "happened": "HHAeXchange lists no coordinator for this patient. The current case manager was kept.",
+        "action": "Assign a coordinator in HHAeXchange."
+      },
+      "UNKNOWN_COORDINATOR_NAME": {
+        "title": "Unknown coordinator",
+        "happened": "The coordinator name matches no case manager here. The current case manager was kept.",
+        "action": "Sync case managers, or fix the name in HHAeXchange."
+      },
+      "AMBIGUOUS_COORDINATOR_NAME": {
+        "title": "Two case managers share the name",
+        "happened": "Two case managers have this coordinator's name and the id lookup failed. The current case manager was kept.",
+        "action": "Rename one of them in HHAeXchange."
+      },
+      "CASE_MANAGER_ARCHIVED": {
+        "title": "Case manager archived",
+        "happened": "The coordinator in HHAeXchange is archived here. The current case manager was kept.",
+        "action": "Reassign the patient in HHAeXchange."
+      },
+      "PRIMARY_NURSE_CONFLICT": {
+        "title": "Primary nurse differs from HHAeXchange",
+        "happened": "HHAeXchange now assigns a nurse to this patient, but an admin already picked a different primary nurse here. The PreventaTri nurse was kept.",
+        "action": "Choose which nurse stays: keep the PreventaTri nurse, or use the HHAeXchange nurse."
+      },
+      "CASE_MANAGER_CONFLICT": {
+        "title": "Case manager differs from HHAeXchange",
+        "happened": "HHAeXchange's case manager for this patient is active now, but someone else was put on the patient while they were not. The current case manager was kept.",
+        "action": "Choose who stays: keep the current case manager, or use the HHAeXchange case manager."
+      },
+      "NURSE_INVITATION_PENDING": {
+        "title": "Nurse has not accepted an invitation",
+        "happened": "HHAeXchange assigns this nurse to patients, but the nurse has not accepted an invitation to PreventaTri yet, so those patients were not given to them.",
+        "action": "Invite the nurse. They get their patients the moment they accept. Until then you can pick another primary nurse on each patient."
+      },
+      "CASE_MANAGER_INVITATION_PENDING": {
+        "title": "Case manager has not accepted an invitation",
+        "happened": "HHAeXchange names this case manager on patients, but they have not accepted an invitation to PreventaTri yet, so those patients were not given to them.",
+        "action": "Invite the case manager. They get their patients the moment they accept. Until then you can pick another case manager on each patient."
+      },
+      "NURSE_NOT_ACTIVE": {
+        "title": "Nurse is not active",
+        "happened": "HHAeXchange assigns this nurse to patients, but the nurse is inactive or archived here, so they were taken off those patients.",
+        "action": "Reactivate the nurse or reassign the patients in HHAeXchange. Until then you can pick another primary nurse on each patient."
+      },
+      "CASE_MANAGER_NOT_ACTIVE": {
+        "title": "Case manager is not active",
+        "happened": "HHAeXchange names this case manager on patients, but they are inactive or archived here, so they were taken off those patients.",
+        "action": "Reactivate the case manager or reassign the patients in HHAeXchange. Until then you can pick another case manager on each patient."
+      },
+      "SELECTED_COORDINATOR_REMOVED": {
+        "title": "Chosen coordinator removed",
+        "happened": "The coordinator an admin chose as case manager is no longer on this patient in HHAeXchange, or is archived here. The sync went back to HHAeXchange's first coordinator.",
+        "action": "Choose the case manager again on the Coordinators tab."
+      },
+      "SECONDARY_NURSE_MATCHES_PRIMARY": {
+        "title": "Secondary nurse became primary",
+        "happened": "HHAeXchange made the secondary nurse the primary nurse, so the secondary nurse was cleared.",
+        "action": "Pick another secondary nurse for the patient."
+      },
+      "SECONDARY_NURSE_REGION_MISMATCH": {
+        "title": "Secondary nurse outside region",
+        "happened": "The patient moved to a county the secondary nurse does not cover, so the secondary nurse was cleared.",
+        "action": "Pick a secondary nurse for the new region."
+      },
+      "LINK_LOOKUP_FAILED": {
+        "title": "Lookup failed",
+        "happened": "Nurses, case managers or patients could not be read for linking, so links were kept for this run.",
+        "action": "Run the sync again."
+      },
+      "MISSING_CAREGIVER_ID": {
+        "title": "Caregiver without an id",
+        "happened": "An HHAeXchange caregiver record had no id, so it was skipped.",
+        "action": "Report the record to HHAeXchange support."
+      },
+      "MISSING_DISCIPLINE": {
+        "title": "No discipline",
+        "happened": "The caregiver has no discipline in HHAeXchange and was imported with role Unspecified.",
+        "action": "Set the discipline in HHAeXchange."
+      },
+      "UNMAPPED_CAREGIVER_STATUS": {
+        "title": "Unknown caregiver status",
+        "happened": "HHAeXchange sent a status PreventaTri does not know. The caregiver was imported as Active.",
+        "action": "Check the status in HHAeXchange; ask dev to map it."
+      },
+      "UNMAPPED_LANGUAGE": {
+        "title": "Unknown language",
+        "happened": "HHAeXchange sent a language PreventaTri does not know. The caregiver was imported without a language.",
+        "action": "Correct the language in HHAeXchange."
+      },
+      "ARCHIVED_CAREGIVER_UPDATED": {
+        "title": "Archived caregiver changed",
+        "happened": "An archived caregiver changed in HHAeXchange. They were updated and stay archived.",
+        "action": "Decide whether they should be active again."
+      },
+      "MISSING_COORDINATOR_ID": {
+        "title": "Coordinator without an id",
+        "happened": "An HHAeXchange coordinator record had no id, so it was skipped.",
+        "action": "Report the record to HHAeXchange support."
+      },
+      "UNMAPPED_COORDINATOR_STATUS": {
+        "title": "Unknown case manager status",
+        "happened": "HHAeXchange sent a status PreventaTri does not know. The case manager was imported as Active.",
+        "action": "Check the status in HHAeXchange; ask dev to map it."
+      },
+      "ARCHIVED_CASE_MANAGER_UPDATED": {
+        "title": "Archived case manager changed",
+        "happened": "An archived case manager changed in HHAeXchange. They were updated and stay archived.",
+        "action": "Decide whether they should be active again."
+      },
+      "UNMAPPED_PROFESSIONAL_ROLE": {
+        "title": "Unknown nurse discipline",
+        "happened": "The nurse's discipline is not RN or LPN, so they were imported as RN.",
+        "action": "Correct the discipline in HHAeXchange."
+      },
+      "UNMAPPED_NURSE_STATUS": {
+        "title": "Unknown nurse status",
+        "happened": "HHAeXchange sent a status PreventaTri does not know. The nurse was imported as Active.",
+        "action": "Check the status in HHAeXchange; ask dev to map it."
+      },
+      "INVALID_NPI": {
+        "title": "Invalid NPI",
+        "happened": "The NPI is not 10 digits, so it was stored empty.",
+        "action": "Correct the NPI in HHAeXchange."
+      },
+      "ARCHIVED_NURSE_UPDATED": {
+        "title": "Archived nurse changed",
+        "happened": "An archived nurse changed in HHAeXchange. They were updated and stay archived.",
+        "action": "Decide whether they should be active again."
+      },
+      "NURSE_DEMOGRAPHICS_UNAVAILABLE": {
+        "title": "Nurse details unavailable",
+        "happened": "A roster nurse's details could not be read, so the nurse was not created or refreshed.",
+        "action": "Run the sync again; if it repeats, report it to HHAeXchange."
+      },
+      "NURSE_ROSTER_UNAVAILABLE": {
+        "title": "Nurse roster unavailable",
+        "happened": "The nurse roster could not be read, so the caregiver import stopped for this run.",
+        "action": "Run the sync again."
+      },
+      "CAREGIVER_RECLASSIFIED_AS_NURSE": {
+        "title": "Caregiver converted to nurse",
+        "happened": "A nurse imported earlier as a caregiver was converted into a nurse.",
+        "action": "Nothing to do; this is for information."
+      },
+      "DUPLICATE_EMAIL": {
+        "title": "Email already in use",
+        "happened": "HHAeXchange gives this person the same email as another user here. PreventaTri needs a unique login email for each person, so they were not imported.",
+        "action": "Give the person their own login email on the Shared emails tab; HHAeXchange can keep the shared one. They are imported as soon as you save it."
+      },
+      "EMAIL_IN_USE": {
+        "title": "New email already in use",
+        "happened": "HHAeXchange changed this person's email to one another user here already has. PreventaTri needs a unique login email for each person, so the old email was kept.",
+        "action": "Give them their own login email on the Shared emails tab, or keep the old one and dismiss this."
+      },
+      "HHA_EMAIL_CHANGED": {
+        "title": "Email changed in HHAeXchange",
+        "happened": "HHAeXchange changed this person's email, but an admin set their login email here, so the login email was kept. The detail shows the old and new HHAeXchange email.",
+        "action": "Check whether the login email should change too. If so, update it on the person's record or the Shared emails tab; otherwise resolve this."
+      },
+      "INVALID_EMAIL": {
+        "title": "Invalid email",
+        "happened": "HHAeXchange's email is not a valid address. The old email was kept.",
+        "action": "Correct the email in HHAeXchange."
+      },
+      "MISSING_VISIT_ID": {
+        "title": "Visit without an id",
+        "happened": "An HHAeXchange visit had no id, so it was skipped.",
+        "action": "Report the visit to HHAeXchange support."
+      },
+      "UNMAPPED_MISSED_REASON": {
+        "title": "Unknown missed-visit reason",
+        "happened": "HHAeXchange sent a missed-visit reason PreventaTri does not know. It was stored without a reason.",
+        "action": "Ask dev to map it."
+      },
+      "UNMAPPED_MISSED_VISIT": {
+        "title": "Unknown missed-visit value",
+        "happened": "HHAeXchange sent a missed-visit value PreventaTri does not know.",
+        "action": "Ask dev to map it."
+      },
+      "UNMAPPED_TIMEZONE": {
+        "title": "Unknown time zone",
+        "happened": "HHAeXchange sent a time zone PreventaTri does not know. The default zone was used.",
+        "action": "Ask dev to map it."
+      },
+      "UNMAPPED_VISIT_TYPE": {
+        "title": "Unknown visit type",
+        "happened": "HHAeXchange sent a visit type PreventaTri does not know. It was stored without a type.",
+        "action": "Ask dev to map it."
+      },
+      "CURSOR_WINDOW_GUARD": {
+        "title": "Visit import incomplete",
+        "happened": "The visit import hit its safety limit, so newer visits may be missing.",
+        "action": "Report to dev."
+      }
+    },
+    "unknownType": {
+      "title": "Other problem",
+      "happened": "The sync reported a problem this page does not describe yet.",
+      "action": "Report to dev."
+    }
+  },
+  "activityTimeline": {
+    "emptyMessage": "No activity to display."
+  },
+  "assessments": {
+    "title": "Assessments",
+    "totalMonitoredWeeks": "Total Monitored Weeks",
+    "previousRedFlags": "Previous Red Flags",
+    "emergencyText": "Incase of Emergency or Critical Health Situation Use This Option",
+    "sendRedFlag": "Send Immediate Red Flag",
+    "checklistDateLabel": "{{type}} Checklist Date:",
+    "submitChecklistButton": "Submit {{type}} Checklist",
+    "checklistAvailable": "Checklist available now.",
+    "checklistNotAvailable": "Checklist will be enabled 1 day before the date.",
+    "upcomingTitle": "Upcoming Assessments",
+    "noUpcomingAssessments": "No upcoming assessments at this time.",
+    "submitAssessment": "Submit Assessment",
+    "prepareAssessment": "Prepare Assessment",
+    "dueDate": "Due: {{date}}",
+    "deadline": "Deadline: {{date}}",
+    "statusPending": "Pending",
+    "statusLate": "Late",
+    "loadError": "Failed to load assessments. Please try again.",
+    "retry": "Retry",
+    "sectionQuestionsCount_one": "{{count}} Question",
+    "sectionQuestionsCount_other": "{{count}} Questions"
+  },
+  "checklist": {
+    "weeklyTitle": "Weekly Checklist",
+    "assignmentNoteTitle": "Assignment Note",
+    "addComment": "Add Comment",
+    "editComment": "Edit Comment",
+    "commentLabel": "Comment",
+    "commentPlaceholder": "Write a Comment...",
+    "cancel": "Cancel",
+    "save": "Save",
+    "submittedTitle": "Checklist Submitted",
+    "submittedMessage": "Your responses have been recorded successfully.",
+    "submittedFor": "Assessment submitted for",
+    "selectedResponse": "Selected Response",
+    "selectTemplate": "Select Checklist Template",
+    "selectTemplatePlaceholder": "Choose a checklist to submit...",
+    "submittingFor": "Submitting checklist for",
+    "addNoteOrPhoto": "Add Note or Photo",
+    "notesAndAttachments": "Notes & Attachments",
+    "edit": "Edit",
+    "remove": "Remove",
+    "saveNote": "Save Note",
+    "noteCount_one": "1 note",
+    "photoCount": "{{count}} photo",
+    "photoCount_plural": "{{count}} photos",
+    "uploadPhotoPrompt": "Click to upload a photo",
+    "uploadPhotoHint": "JPG, PNG up to 5MB",
+    "yourResponses": "Your Responses",
+    "backToDashboard": "Back to Dashboard",
+    "answeredCount": "{{answered}} of {{total}} answered",
+    "enterNumber": "Enter a number",
+    "enterResponse": "Enter your response..."
+  },
+  "caregiverSubmission": {
+    "submittedFor": "Submitted for"
+  },
+  "audioRecorder": {
+    "addAudioNote": "Add Audio Note",
+    "maxDuration": "Up to 90 sec",
+    "recording": "Recording",
+    "stopRecording": "Stop Recording",
+    "audioRecorded": "Audio note recorded",
+    "microphoneUnavailable": "Microphone access is not available on this device.",
+    "recordingUnsupported": "Audio recording is not supported in this browser.",
+    "microphoneAccessError": "Allow microphone access to record an audio note."
+  },
+  "redFlags": {
+    "pageTitle": "Red Flags",
+    "table": {
+      "title": "Red Flags",
+      "searchPlaceholder": "Search Red Flags",
+      "headers": {
+        "patientName": "PATIENT",
+        "caregiverName": "CAREGIVER",
+        "createdAt": "SUBMITTED ON",
+        "reason": "REASON",
+        "description": "DESCRIPTION",
+        "status": "STATUS",
+        "voidedAt": "VOIDED ON",
+        "action": "ACTION"
+      },
+      "noRowsLabel": "No red flags found."
+    },
+    "status": {
+      "pending": "Pending",
+      "resolved": "Resolved",
+      "voided": "Voided"
+    },
+    "detail": {
+      "title": "Red Flag Details",
+      "status": {
+        "active": {
+          "title": "Red Flag Raised",
+          "subtitle": "Immediate attention required"
+        },
+        "accepted": {
+          "title": "Red Flag Accepted",
+          "subtitle": "Accepted by the assignee; it will not escalate further"
+        },
+        "resolved": {
+          "title": "Red Flag Resolved",
+          "subtitle": "This red flag has been resolved"
+        },
+        "expired": {
+          "title": "Red Flag Expired",
+          "subtitle": "The escalation window elapsed without resolution"
+        },
+        "failed": {
+          "title": "Escalation Failed",
+          "subtitle": "This red flag could not be escalated"
+        },
+        "voided": {
+          "title": "Red Flag Voided",
+          "subtitle": "This red flag was voided"
+        },
+        "yellowActive": {
+          "title": "Yellow Flag Raised",
+          "subtitle": "Attention required"
+        },
+        "yellowAccepted": {
+          "title": "Yellow Flag Accepted",
+          "subtitle": "Accepted by the assignee; it will not escalate further"
+        },
+        "yellowResolved": {
+          "title": "Yellow Flag Resolved",
+          "subtitle": "This yellow flag has been resolved"
+        },
+        "yellowExpired": {
+          "title": "Yellow Flag Expired",
+          "subtitle": "The escalation window elapsed without resolution"
+        },
+        "yellowFailed": {
+          "title": "Escalation Failed",
+          "subtitle": "This yellow flag could not be escalated"
+        },
+        "yellowVoided": {
+          "title": "Yellow Flag Voided",
+          "subtitle": "This yellow flag was voided"
+        }
+      },
+      "statusLabel": {
+        "active": "Active",
+        "resolved": "Resolved",
+        "expired": "Expired",
+        "failed": "Failed",
+        "voided": "Voided"
+      },
+      "evidence": "Supporting Evidence",
+      "patientDetails": "Patient Details",
+      "caregiverDetails": "Caregiver Details",
+      "patient": "Patient",
+      "caregiver": "Caregiver",
+      "name": "Name",
+      "contact": "Contact",
+      "email": "Email",
+      "address": "Address",
+      "phone": "Phone",
+      "caseDetails": "Case Details",
+      "alertReason": "Alert Reason",
+      "reason": "Reason",
+      "description": "Description",
+      "attachedImages": "Attached Images ({{count}})",
+      "attachedAudio": "Audio Note",
+      "submittedOn": "Submitted On",
+      "voidInfo": "Voided",
+      "voidedAt": "Voided On",
+      "voidReason": "Void Reason",
+      "escalation": {
+        "title": "Activity Timeline",
+        "emptyMessage": "No activity yet.",
+        "unassigned": "Unassigned",
+        "assignedLabel": "Assigned",
+        "endedLabel": "Ended",
+        "actions": {
+          "ASSIGNED": "Assigned",
+          "ESCALATED": "Escalated",
+          "RESOLVED": "Resolved",
+          "EXPIRED": "Expired",
+          "FAILED": "Failed",
+          "VOIDED": "Voided"
+        },
+        "levels": {
+          "PATIENT_PRIMARY_NURSE": "Patient Primary Nurse",
+          "REGION_PRIMARY_NURSE": "Region Primary Nurse",
+          "PATIENT_SECONDARY_NURSE": "Patient Secondary Nurse",
+          "REGION_SECONDARY_NURSE": "Region Secondary Nurse",
+          "CASE_MANAGER": "Case Manager",
+          "ADMIN": "Admin"
+        }
+      }
+    },
+    "notFoundTitle": "Red Flag Not Found",
+    "notFoundMessage": "The red flag you are looking for does not exist or has been removed.",
+    "voidTitle": "Void Red Flag",
+    "voidMessage": "You are about to void the red flag for {{name}}. Please provide a reason below."
+  },
+  "emergencyFlags": {
+    "pageTitle": "Emergency Flags",
+    "table": {
+      "title": "Alerts",
+      "searchPlaceholder": "Search alerts",
+      "headers": {
+        "flag": "Severity",
+        "patientName": "Patient and finding",
+        "reason": "Finding",
+        "caregiverName": "Reported by",
+        "createdAt": "Raised",
+        "status": "Status",
+        "voidedAt": "Voided",
+        "action": "Actions",
+        "description": "Description",
+        "patient": "Patient",
+        "whatTripped": "What tripped it"
+      },
+      "noRowsLabel": "No alerts found."
+    },
+    "detail": {
+      "title": "Emergency Flag Details",
+      "backToList": "Back to alerts",
+      "patientDetails": "The patient",
+      "caregiverDetails": "Reported by",
+      "patient": "Patient",
+      "caregiver": "Caregiver",
+      "contact": "Contact",
+      "email": "Email",
+      "address": "Address",
+      "description": "Description",
+      "escalation": {
+        "title": "Alert history",
+        "emptyMessage": "No activity yet.",
+        "unassigned": "Unassigned",
+        "assignedLabel": "Assigned",
+        "endedLabel": "Ended",
+        "actions": {
+          "STARTED": "Started",
+          "ASSIGNED": "Assigned",
+          "ACCEPTED": "Accepted",
+          "ESCALATED": "Escalated",
+          "RESOLVED": "Resolved",
+          "EXPIRED": "Expired",
+          "FAILED": "Failed",
+          "VOIDED": "Voided"
+        },
+        "levels": {
+          "PATIENT_PRIMARY_NURSE": "Patient Primary Nurse",
+          "REGION_PRIMARY_NURSE": "Region Primary Nurse",
+          "PATIENT_SECONDARY_NURSE": "Patient Secondary Nurse",
+          "REGION_SECONDARY_NURSE": "Region Secondary Nurse",
+          "CASE_MANAGER": "Case Manager",
+          "ADMIN": "Admin"
+        }
+      }
+    },
+    "status": {
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "resolved": "Resolved",
+      "voided": "Voided"
+    },
+    "notFoundTitle": "Emergency Flag Not Found",
+    "notFoundMessage": "The emergency flag you are looking for does not exist or has been removed.",
+    "voidTitle": "Void Emergency Flag",
+    "voidMessage": "You are about to void the emergency flag for {{name}}. Please provide a reason below.",
+    "tabs": {
+      "ariaLabel": "Alert status",
+      "open": "Open",
+      "accepted": "Accepted",
+      "resolved": "Resolved",
+      "voided": "Voided"
+    }
+  },
+  "followUps": {
+    "title": "Follow-up tasks",
+    "description": "Tasks for the care team, with a due time and an owner",
+    "table": {
+      "title": "Follow-up tasks",
+      "searchPlaceholder": "Search tasks, patients or assignees",
+      "addButton": "New task",
+      "noRowsLabel": "No follow-up tasks found.",
+      "headers": {
+        "task": "TASK",
+        "assignee": "ASSIGNEE",
+        "priority": "PRIORITY",
+        "due": "DUE",
+        "status": "STATUS",
+        "source": "SOURCE"
+      }
+    },
+    "statuses": {
+      "pending": "Pending",
+      "overdue": "Overdue",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "priorities": {
+      "low": "Low",
+      "normal": "Normal",
+      "high": "High"
+    },
+    "outcomes": {
+      "done": "Done",
+      "doneWithIssues": "Done, with issues",
+      "couldNotComplete": "Could not complete"
+    },
+    "sources": {
+      "alert": "Alert",
+      "supervisoryVisit": "Supervisory visit",
+      "standalone": "Standalone"
+    },
+    "careTeam": {
+      "patientPrimaryNurse": "Primary nurse",
+      "patientSecondaryNurse": "Secondary nurse",
+      "regionDefaultNurse": "Region nurse",
+      "caseManager": "Case manager",
+      "caregiver": "Caregiver",
+      "admin": "Org administrator"
+    },
+    "types": {
+      "red": "Red Flag",
+      "yellow": "Yellow Flag",
+      "manual": "Other"
+    },
+    "due": {
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "inDays_one": "In 1 day",
+      "inDays_other": "In {{count}} days",
+      "late": "{{duration}} late",
+      "overdueBy": "Overdue {{duration}}",
+      "completedLate": "Completed {{duration}} late",
+      "completedEarly": "Completed {{duration}} early",
+      "days_one": "1 day",
+      "days_other": "{{count}} days",
+      "hours_one": "1 hour",
+      "hours_other": "{{count}} hours",
+      "minutes_one": "1 minute",
+      "minutes_other": "{{count}} minutes"
+    },
+    "banner": {
+      "overdue_one": "1 task is overdue — it was due {{date}}.",
+      "overdue_other": "{{count}} tasks are overdue — the oldest was due {{date}}.",
+      "escalation": "Overdue tasks are escalated to the organization administrator automatically.",
+      "showOverdue": "Show overdue only →"
+    },
+    "filters": {
+      "priority": "Priority",
+      "source": "Source"
+    },
+    "detail": {
+      "notFoundTitle": "Follow-up task not found",
+      "notFoundMessage": "The follow-up task you are looking for does not exist or you do not have permission to view it.",
+      "crumb": "Follow-up tasks",
+      "description": "Description",
+      "noDescription": "No description provided.",
+      "creatorNote": "Visit notes · {{name}}",
+      "checklist": "Checklist",
+      "answeredOnComplete": "The assignee answers these questions one by one when they complete the task.",
+      "runnerUnavailableTitle": "This checklist can't be answered",
+      "runnerUnavailableMessage": "Only the assignee answers the checklist of an open task. Open the task to see its details.",
+      "answers": "Checklist answers",
+      "noChecklist": "This task has no checklist.",
+      "history": "History",
+      "historyEmpty": "Nothing has happened on this task yet.",
+      "taskDetails": "Task details",
+      "status": "Status",
+      "assignee": "Assignee",
+      "originally": "originally {{name}}",
+      "due": "Due",
+      "dueWas": "Due was",
+      "priority": "Priority",
+      "created": "Created",
+      "createdBy": "{{name}} · {{date}}",
+      "source": "Source",
+      "completion": "Completion",
+      "completedBy": "Completed by",
+      "completedAt": "Completed at",
+      "againstDue": "Against due",
+      "onTime": "On time",
+      "outcome": "Outcome",
+      "completionNotes": "Completion notes",
+      "evidence": "Evidence",
+      "patient": "Patient",
+      "openPatient": "Open patient record →",
+      "linkedAlert": "Linked alert",
+      "sourceVisit": "Created from supervisory visit",
+      "openVisit": "Open supervisory visit →",
+      "cancelledBy": "Cancelled by {{name}} · {{date}}",
+      "cancelReason": "Reason"
+    },
+    "create": {
+      "title": "Create a follow-up task",
+      "editTitle": "Edit follow-up task",
+      "drawerSubtitle": "The assignee is notified immediately · every change is audit-logged",
+      "patient": "Patient",
+      "patientPlaceholder": "Search by patient name",
+      "task": "Task title",
+      "taskPlaceholder": "What needs to happen",
+      "description": "Task Description",
+      "descriptionHint": "what done looks like",
+      "descriptionPlaceholder": "What should be done, who to contact, and when to escalate",
+      "visitNotes": "Visit notes",
+      "visitNotesPlaceholder": "Anything the assignee should know before or during the visit",
+      "assignTo": "Assign to",
+      "selectPatientFirst": "Select a patient first",
+      "priority": "Priority",
+      "dueDate": "Due date",
+      "time": "Time",
+      "reminders": "Remind assignee",
+      "remindersValue": "24h and 2h before due",
+      "checklist": "Checklist",
+      "checklistOptional": "optional",
+      "linkedTo": "Linked to",
+      "noMatchingPatients": "No patient matches that name",
+      "noAssignees": "No care-team member is available for this patient",
+      "noChecklists": "No checklists",
+      "submit": "Create task",
+      "save": "Save changes"
+    },
+    "actions": {
+      "edit": "Edit",
+      "cancel": "Cancel task",
+      "complete": "Complete task",
+      "reopen": "Reopen task"
+    },
+    "complete": {
+      "title": "Complete this task",
+      "subtitle": "{{title}} · assigned to {{assignee}}",
+      "overdueWarning": "This task is {{duration}} overdue. Completing it records the delay in the audit log.",
+      "outcome": "Outcome",
+      "notes": "Completion notes",
+      "notesHint": "what was done and what the outcome was",
+      "notesPlaceholder": "Who you reached, what was confirmed, what is still open",
+      "evidence": "Evidence",
+      "evidenceOptional": "optional",
+      "permanent": "Completing is permanent",
+      "confirm": "Complete task"
+    },
+    "cancelDialog": {
+      "title": "Cancel this task",
+      "message": "The task is closed without being done. The assignee and the creator are notified.",
+      "reason": "Reason",
+      "reasonPlaceholder": "Why this task is no longer needed",
+      "confirm": "Cancel task",
+      "dismiss": "Keep task"
+    },
+    "reopen": {
+      "title": "Reopen this task",
+      "message": "The outcome and notes are cleared and the task goes back to its assignee. A task whose due time has passed reopens as overdue.",
+      "confirm": "Reopen task"
+    },
+    "events": {
+      "created": "Task created",
+      "reassigned": "Reassigned",
+      "edited": "Task edited",
+      "becameOverdue": "Became overdue",
+      "escalatedToAdmin": "Escalated to org administrator",
+      "reminderSent": "Reminder sent",
+      "completed": "Task completed",
+      "cancelled": "Task cancelled",
+      "reopened": "Task reopened",
+      "system": "System",
+      "fromAlert": "from closing an alert",
+      "fromSupervisoryVisit": "from a supervisory visit",
+      "changed": "changed {{fields}}",
+      "reminder": "{{hours}}h before due",
+      "fromTo": "{{from}} → {{to}}"
+    },
+    "validation": {
+      "dueInFuture": "Due date and time must be in the future",
+      "timeInvalid": "Enter a valid time (HH:mm)"
+    },
+    "tabs": {
+      "ariaLabel": "Task status",
+      "overdue": "Overdue",
+      "pending": "Pending",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "caregiverCard": {
+      "title": "Tasks assigned to you",
+      "subtitle": "follow-up tasks from your care team",
+      "empty": "No follow-up tasks are assigned to you."
+    }
+  },
+  "supervisoryVisits": {
+    "title": "Supervisory visits",
+    "description": "Schedule, perform and review in-home supervisory visits",
+    "table": {
+      "title": "Supervisory visits",
+      "searchPlaceholder": "Search patients or nurses",
+      "addButton": "Schedule visit",
+      "noRowsLabel": "No supervisory visits found.",
+      "caregiversCount_one": "1 caregiver",
+      "caregiversCount_other": "{{count}} caregivers",
+      "headers": {
+        "patient": "PATIENT",
+        "visitType": "VISIT TYPE",
+        "nurse": "ASSIGNED TO",
+        "scheduled": "SCHEDULED",
+        "caregivers": "CAREGIVERS",
+        "status": "STATUS"
+      }
+    },
+    "statuses": {
+      "scheduled": "Scheduled",
+      "overdue": "Overdue",
+      "underReview": "Under review",
+      "approved": "Approved",
+      "cancelled": "Cancelled"
+    },
+    "visitTypes": {
+      "routine": "Routine",
+      "triggered": "Triggered by alert",
+      "other": "Other"
+    },
+    "outcomes": {
+      "noConcerns": "No concerns",
+      "concernsNoted": "Concerns noted",
+      "notConducted": "Could not conduct"
+    },
+    "tabs": {
+      "ariaLabel": "Visit status",
+      "scheduled": "Scheduled",
+      "dueThisWeek": "Due this week",
+      "overdue": "Overdue",
+      "underReview": "Under review",
+      "approved": "Approved",
+      "cancelled": "Cancelled"
+    },
+    "schedule": {
+      "filedLate": "Filed {{duration}} after the window",
+      "filedOnTime": "Filed within the window"
+    },
+    "create": {
+      "title": "Schedule a supervisory visit",
+      "editTitle": "Edit supervisory visit",
+      "drawerSubtitle": "The assignee and every caregiver listed are notified on save",
+      "patient": "Patient",
+      "patientPlaceholder": "Search by patient name",
+      "visitType": "Visit type",
+      "visitTypeOther": "Describe the visit type",
+      "visitTypeOtherPlaceholder": "e.g. SC request, MCO escalation",
+      "assignTo": "Assigned to",
+      "assignToPlaceholder": "Nurse, case manager or administrator who performs the visit",
+      "caregivers": "Caregivers present",
+      "caregiversHint": "optional",
+      "caregiversPlaceholder": "Caregivers the nurse will observe",
+      "checklist": "Checklist",
+      "checklistPlaceholder": "Form to fill in during the visit",
+      "date": "Date",
+      "startTime": "Start",
+      "endTime": "End",
+      "description": "Reason for visit",
+      "descriptionPlaceholder": "Why this visit is happening and what to look at",
+      "selectPatientFirst": "Select a patient first",
+      "noMatchingPatients": "No patient matches that name",
+      "noAssignees": "No nurse, administrator or case manager is on this patient's care team",
+      "noCaregivers": "No active caregiver is linked to this patient",
+      "noChecklists": "No supervisory visit checklists",
+      "submit": "Schedule visit",
+      "save": "Save changes"
+    },
+    "fields": {
+      "visitType": "visit type",
+      "visitTypeOther": "visit type description",
+      "description": "reason for visit",
+      "checklistTemplateId": "checklist",
+      "scheduledStartAt": "start time",
+      "scheduledEndAt": "end time",
+      "caregiverUserOrganizationIds": "caregivers present"
+    },
+    "detail": {
+      "notFoundTitle": "Supervisory visit not found",
+      "notFoundMessage": "The supervisory visit you are looking for does not exist or you do not have permission to view it.",
+      "crumb": "Supervisory visits",
+      "heading": "{{patient}} · supervisory visit",
+      "description": "Reason for visit",
+      "scheduledBy": "{{type}} · scheduled by {{name}}",
+      "noDescription": "No reason provided.",
+      "templateInUse": "Template {{title}} · {{count}} sections",
+      "findings": "Findings",
+      "evidence": "Evidence",
+      "review": "Review",
+      "approvedBy": "Approved by {{name}} · {{date}}",
+      "awaitingCorrection": "Sent back for correction",
+      "visitDetails": "Visit details",
+      "status": "Status",
+      "visitType": "Type",
+      "assignee": "Assigned to",
+      "scheduledFor": "Scheduled",
+      "created": "Scheduled by",
+      "source": "Source",
+      "filedBy": "Filed",
+      "cancelReason": "Reason",
+      "caregiversPresent": "Caregivers present",
+      "noCaregivers": "No caregivers listed for this visit.",
+      "followUps": "Follow-ups from this visit",
+      "followUpsEmpty": "No follow-up tasks have been created from this visit.",
+      "dueOn": "due {{date}}",
+      "history": "History",
+      "historyEmpty": "Nothing has happened on this visit yet.",
+      "patient": "Patient",
+      "openPatient": "Open patient record →",
+      "checklist": "Visit documentation",
+      "answeredOnFile": "The assigned nurse answers these sections one by one when they file the visit.",
+      "noChecklist": "This visit has no checklist.",
+      "runnerUnavailableTitle": "This visit can't be documented",
+      "runnerUnavailableMessage": "Only the assigned nurse documents an open visit. Open the visit to see its details."
+    },
+    "actions": {
+      "addFollowUp": "Add follow-up",
+      "edit": "Edit",
+      "cancel": "Cancel visit",
+      "requestCorrection": "Reopen for correction",
+      "approve": "Approve visit",
+      "file": "File visit for review",
+      "reopen": "Reopen visit",
+      "fileAdmin": "File and approve visit"
+    },
+    "complete": {
+      "title": "File this visit for review",
+      "subtitle": "Documented by {{assignee}} · reviewers are notified",
+      "outcome": "Outcome",
+      "notes": "Findings",
+      "notesHint": "what you observed and what needs attention",
+      "notesPlaceholder": "Home safety, caregiver performance, member condition, care-plan variance",
+      "evidence": "Photos & documents",
+      "evidenceOptional": "optional",
+      "permanent": "The visit goes to review once filed",
+      "confirm": "File visit",
+      "overdueWarning": "This visit is {{duration}} past its window. Filing it records the delay in the history.",
+      "followUps": "Follow-up actions",
+      "followUpsHint": "created when the visit is filed",
+      "addFollowUp": "Add follow-up",
+      "noFollowUps": "No follow-up tasks queued.",
+      "removeFollowUp": "Remove follow-up",
+      "queueFollowUp": "Add to visit",
+      "titleAdmin": "File and approve this visit",
+      "subtitleAdmin": "Documented by {{assignee}} · approved when filed",
+      "permanentAdmin": "Filing as an administrator approves the visit",
+      "confirmAdmin": "File and approve"
+    },
+    "cancelDialog": {
+      "title": "Cancel this visit",
+      "message": "The visit is closed without being performed. The nurse, the caregivers and whoever scheduled it are notified.",
+      "reason": "Reason",
+      "reasonPlaceholder": "Why this visit is no longer needed",
+      "confirm": "Cancel visit",
+      "dismiss": "Keep visit"
+    },
+    "review": {
+      "approveTitle": "Approve this visit",
+      "approveMessage": "The documentation is accepted and the visit is locked. The nurse who filed it is notified.",
+      "noteLabel": "Review note",
+      "notePlaceholder": "Optional note for the record",
+      "approveConfirm": "Approve visit",
+      "dismiss": "Back",
+      "correctionTitle": "Reopen for correction",
+      "correctionMessage": "The visit goes back to the nurse with their answers kept. Say what needs to change.",
+      "reasonLabel": "What needs correcting",
+      "reasonPlaceholder": "e.g. Add the missing home safety photo",
+      "correctionConfirm": "Send back"
+    },
+    "reopen": {
+      "title": "Reopen this visit",
+      "message": "The outcome, findings and review are cleared and the visit goes back to its nurse. A visit whose window has passed reopens as overdue.",
+      "confirm": "Reopen visit"
+    },
+    "events": {
+      "created": "Visit scheduled",
+      "reassigned": "Reassigned",
+      "edited": "Visit edited",
+      "becameOverdue": "Became overdue",
+      "escalatedToAdmin": "Escalated to org administrator",
+      "reminderSent": "Reminder sent",
+      "filed": "Filed for review",
+      "approved": "Visit approved",
+      "correctionRequested": "Sent back for correction",
+      "cancelled": "Visit cancelled",
+      "reopened": "Visit reopened",
+      "followUpsCreated": "Follow-up tasks created",
+      "reminder": "{{hours}}h before the visit",
+      "tasksCount_one": "1 task",
+      "tasksCount_other": "{{count}} tasks",
+      "autoApproved": "Filed by an administrator, so no separate review"
+    },
+    "validation": {
+      "visitTypeOtherRequired": "Describe the visit type",
+      "startInFuture": "The visit must start in the future",
+      "endAfterStart": "The visit must end after it starts"
+    }
+  },
+  "call911Banner": {
+    "title": "Call 911 first",
+    "message": "If someone is in danger right now, call 911 before you do anything else."
+  },
+  "redFlag": {
+    "sendingFlagFor": "Sending Immediate Red Flag for",
+    "formTitle": "Red Flag Form",
+    "alertDetails": "Alert Details",
+    "selectReason": "Select reason for alert",
+    "description": "Brief description",
+    "descriptionPlaceholder": "Brief description",
+    "uploadImages": "Upload images here",
+    "uploadImagesLabel": "Drop images here or",
+    "browse": "browse",
+    "or": "or",
+    "browseImage": "Browse Image",
+    "submitButton": "Submit Immediate Red Flag",
+    "submittedTitle": "Red Flag Submitted",
+    "submittedMessage": "Your red flag alert has been submitted successfully. The care team will be notified immediately.",
+    "submittedFor": "Red flag submitted for",
+    "submittedDetails": "Submitted Details",
+    "reasonLabel": "Reason",
+    "descriptionLabel": "Description",
+    "attachedImages": "Attached Images ({{count}})",
+    "attachedAudio": "Audio Note",
+    "urgencyNotice": "This will immediately notify the care team. Please provide as much detail as possible to help them respond quickly.",
+    "supportingEvidence": "Supporting Evidence (Optional)",
+    "backToDashboard": "Back to Dashboard"
+  },
+  "flag": {
+    "activeModal": {
+      "title": {
+        "critical": "Critical Flag Raised",
+        "moderate": "Moderate Flag Raised",
+        "stable": "Stable Flag Logged"
+      },
+      "subtitle": {
+        "critical": "Handle This Case Immediately",
+        "moderate": "Active SLA: Needs Attention",
+        "stable": "Logged Only, No Action Required"
+      },
+      "patient": "Patient",
+      "caregiver": "Caregiver",
+      "alertReason": "Alert reason",
+      "description": "Description",
+      "openCaseDetails": "Open case details",
+      "accept": "Accept",
+      "accepting": "Accepting…",
+      "acceptConfirm": {
+        "title": "Accept this alert?",
+        "message": "Accepting stops this alert from escalating to the next level. It stays with you until you resolve it.",
+        "confirm": "Yes, accept"
+      },
+      "accepted": "Accepted",
+      "acceptedHint": "You accepted this alert, so it will not escalate. Resolve it from the case details.",
+      "dismiss": "Dismiss",
+      "remainingFlagsBadge": "+{{count}}",
+      "remainingFlagsCount_one": "{{count}} more flag waiting",
+      "remainingFlagsCount_other": "{{count}} more flags waiting",
+      "remainingFlagsHint": "Resolve this case to view the next one"
+    },
+    "expiry": {
+      "label": "Expires in",
+      "expiredLabel": "SLA expired"
+    },
+    "caseDetailsModal": {
+      "eyebrow": "Case review",
+      "active": "Active",
+      "exit": "Exit without resolving",
+      "notFoundTitle": "Case not available",
+      "notFoundMessage": "We couldn't load the details for this case."
+    },
+    "actionTaken": {
+      "header": "The resolution",
+      "prompt": "What did you do? Select all that apply.",
+      "guidedCaregiverOnCall": "Guided caregiver on call",
+      "guidedPatientOnCall": "Guided patient on call",
+      "sentInstructionsToEmail": "Sent instructions to caregiver and patient by email",
+      "teamDispatched": "Team dispatched",
+      "notesLabel": "Notes",
+      "notesPlaceholder": "What you found and what happens next",
+      "alsoCreate": "Also create",
+      "requireFollowUp": "Follow-up task",
+      "followUpDateLabel": "Task date",
+      "followUpDescriptionLabel": "Task description",
+      "followUpDescriptionPlaceholder": "What needs to happen, and by whom",
+      "requireSupervisoryVisit": "Supervisory visit",
+      "supervisoryVisitDateLabel": "Visit date",
+      "supervisoryVisitStartLabel": "Start",
+      "supervisoryVisitEndLabel": "End",
+      "supervisoryVisitAssigneeLabel": "Assigned to",
+      "supervisoryVisitAssigneeHelper": "Defaults to the patient's case manager",
+      "visitInstructionsLabel": "Visit instructions",
+      "visitInstructionsPlaceholder": "What the visiting nurse should check",
+      "attachDocumentsLabel": "Attachments (optional)",
+      "resolveButton": "Mark this case as resolved",
+      "requirements": "Needs at least one action and notes",
+      "atLeastOneActionRequired": "Select at least one action taken.",
+      "followUpTitleLabel": "Task",
+      "followUpTitlePlaceholder": "What needs to happen",
+      "followUpTimeLabel": "Time",
+      "followUpAssigneeLabel": "Assign to",
+      "followUpAssigneeHelper": "Defaults to the patient's case manager",
+      "followUpPriorityLabel": "Priority",
+      "followUpChecklistLabel": "Checklist (optional)",
+      "followUpChecklistNone": "No checklist — description only"
+    }
+  },
+  "alertReview": {
+    "backToActivity": "Back to activity",
+    "header": {
+      "reported": "Reported {{date}}",
+      "by": "by {{name}}",
+      "fromChecklist": "from {{title}}"
+    },
+    "people": {
+      "patient": "The patient",
+      "reportedBy": "Reported by",
+      "reportedAt": "Reported",
+      "caregiver": "Caregiver",
+      "contact": "Contact",
+      "email": "Email",
+      "address": "Address",
+      "dobAge": "DOB / age",
+      "medicaidId": "Medicaid ID",
+      "conditions": "Conditions",
+      "emergencyContact": "Emergency contact",
+      "primaryNurse": "Primary nurse",
+      "secondaryNurse": "Secondary nurse",
+      "caseManager": "Case manager",
+      "caregivers": "Caregivers",
+      "openPatientRecord": "Open patient record →"
+    },
+    "evidence": {
+      "title": "The evidence",
+      "alertReason": "Alert reason",
+      "riskResult": "Risk result",
+      "flaggedCount": "{{flagged}} of {{total}} answers flagged",
+      "sectionFlagged": "{{flagged}} flagged of {{total}}",
+      "withinRange_one": "{{count}} answer within normal range",
+      "withinRange_other": "{{count}} answers within normal range",
+      "showingAll": "Showing all {{count}} answers",
+      "showAll": "Show all {{count}}",
+      "showFlagged": "Show flagged only",
+      "submittedAt": "submitted {{time}}",
+      "reportedManually": "Reported manually",
+      "photos": "Photos",
+      "audioNote": "Audio note",
+      "noMedia": "No photos or audio note were attached.",
+      "visitNotes": "Visit notes",
+      "caregiverComment": "Caregiver comment",
+      "description": "Description"
+    },
+    "timing": {
+      "expiresIn": "Expires in",
+      "openFor": "Open for",
+      "acceptedIn": "Accepted in",
+      "acceptedInDuration": "Accepted in {{duration}}",
+      "resolvedIn": "Resolved in",
+      "resolvedInDuration": "Resolved in {{duration}}"
+    },
+    "resolution": {
+      "title": "The resolution",
+      "actionsTaken": "Actions taken",
+      "notes": "Notes",
+      "attachments": "Attachments",
+      "followUp": "Follow-up task",
+      "supervisoryVisit": "Supervisory visit",
+      "date": "Date",
+      "task": "Task",
+      "instructions": "Instructions",
+      "submittedBy": "Submitted by",
+      "notResolved": "Not resolved yet",
+      "accept": "Accept alert",
+      "acceptHint": "Accepting stops the escalation timer. The alert stays with you until you resolve it.",
+      "accepted": "Accepted",
+      "acceptedBy": "Accepted by {{name}} · {{time}}",
+      "assignedAt": "{{level}} · assigned {{time}}",
+      "pendingHint": "The assigned nurse resolves this alert from their case popup. The actions, notes and files show here once submitted.",
+      "voided": "Voided",
+      "voidedBy": "Voided by",
+      "voidReason": "Reason"
+    }
+  },
+  "filters": {
+    "patient": "Patient",
+    "caregiver": "Caregiver",
+    "caseManager": "Case manager",
+    "status": "Status",
+    "flagType": "Alert type",
+    "allPatients": "All Patients",
+    "allCaregivers": "All Caregivers",
+    "severity": "Severity",
+    "region": "Region",
+    "careTeam": "Care team",
+    "riskTier": "Risk tier",
+    "assignee": "Assignee",
+    "source": "Source",
+    "invitation": "Invitation",
+    "visitType": "Visit type",
+    "nurse": "Nurse",
+    "checklistType": "Type",
+    "actionType": "Action type",
+    "resourceType": "Resource",
+    "fromDate": "From date",
+    "toDate": "To date",
+    "priority": "Priority"
+  },
+  "void": {
+    "reasonLabel": "Reason for voiding",
+    "reasonPlaceholder": "Enter the reason this item is being voided...",
+    "cancelButton": "Cancel",
+    "confirmButton": "Mark as Void"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "noNotifications": "No notifications yet",
+    "loadError": "Failed to load notifications",
+    "markAllRead": "Read All Notifications",
+    "viewAll": "View all notifications",
+    "unreadCount": "{{count}} New",
+    "systemActor": "System"
+  },
+  "alertSummary": {
+    "openCritical": "Open critical",
+    "openModerate": "Open moderate",
+    "slaBreaches": "SLA breaches",
+    "averageResolution": "Avg. resolution time",
+    "totalStable": "Total stable",
+    "scopeNow": "Now",
+    "scopeThirtyDays": "30 days"
+  },
+  "severity": {
+    "critical": "Critical",
+    "moderate": "Moderate",
+    "stable": "Stable"
+  },
+  "shell": {
+    "searchPlaceholder": "Search patients or staff by name",
+    "searchLabel": "Search patients or staff",
+    "searchResultsFor": "Results for \"{{query}}\"",
+    "searchNoResults": "No patients or staff match that search",
+    "searchLoading": "Searching…",
+    "searchPatientLabel": "Patient",
+    "searchPatientsPlaceholder": "Search patients by name",
+    "searchPatientsLabel": "Search patients"
+  },
+  "inputs": {
+    "selectPlaceholder": "Select"
+  },
+  "table": {
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "perPage": "{{size}} per page",
+    "total": "{{count}} total",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "listToolbar": {
+    "all": "All",
+    "addFilter": "Add filter",
+    "filterBy": "Filter by",
+    "anyOf": "any of",
+    "oneOf": "one of",
+    "needsApi": "needs API support",
+    "tabNeedsApi": "Needs API support",
+    "notAvailable": "{{label}} is not available yet. It turns on once the API accepts this filter.",
+    "soon": "soon",
+    "reset": "Reset",
+    "apply": "Apply",
+    "clearAll": "Clear all",
+    "clearSearch": "Clear search",
+    "removeFilter": "Remove {{label}} filter",
+    "searchOptions": "Search",
+    "noMatches": "No matches for \"{{query}}\"",
+    "noOptions": "Nothing to choose from yet",
+    "moreValues": "{{first}} +{{count}}",
+    "selectedCount": "{{count}} selected"
+  },
+  "activityLog": {
+    "views": {
+      "ariaLabel": "Activity log view",
+      "audit": "Audit log",
+      "system": "System logs"
+    },
+    "systemLogs": {
+      "count": "{{count}} notifications",
+      "sentTo": "Sent to",
+      "you": "You",
+      "seen": "Seen",
+      "seenAt": "Seen {{time}}",
+      "notSeen": "Not seen yet",
+      "unknownRecipient": "Unknown recipient"
+    },
+    "table": {
+      "searchPlaceholder": "Search activity",
+      "eventsCount": "{{count}} events",
+      "refresh": "Refresh",
+      "headers": {
+        "timestamp": "Timestamp",
+        "actor": "Actor",
+        "action": "Action",
+        "resource": "Resource"
+      },
+      "noRowsLabel": "No activity recorded yet."
+    },
+    "actions": {
+      "create": "Create",
+      "read": "Read",
+      "update": "Update",
+      "delete": "Delete",
+      "login": "Login",
+      "logout": "Logout",
+      "reset_password": "Reset password",
+      "invite": "Invite",
+      "account_lock": "Account locked",
+      "account_unlock": "Account unlocked",
+      "sync_started": "Sync started",
+      "sync_completed": "Sync completed",
+      "sync_failed": "Sync failed",
+      "invite_resent": "Invitation resent",
+      "invite_accepted": "Invitation accepted",
+      "invite_revoked": "Invitation cancelled",
+      "escalation_started": "Escalation started",
+      "escalation_assigned": "Escalation assigned",
+      "escalated": "Escalated",
+      "escalation_accepted": "Alert accepted",
+      "notification_delivery": "Notification delivery"
+    },
+    "resources": {
+      "user": "User",
+      "nurse": "Nurse",
+      "caregiver": "Caregiver",
+      "patient": "Patient",
+      "caseManager": "Case manager",
+      "region": "Region",
+      "county": "County",
+      "checklistTemplate": "Checklist template",
+      "checklistSubmission": "Checklist submission",
+      "checklistAssignment": "Checklist assignment",
+      "emergencyFlag": "Emergency flag",
+      "assignedEscalation": "Escalation",
+      "escalationPolicy": "Escalation policy",
+      "workingHours": "Working hours",
+      "timeZone": "Time zone",
+      "otpMethod": "Two-step verification",
+      "SignoutADevice": "Sign out a device",
+      "SignoutAllOtherDevices": "Sign out all other devices",
+      "patientAssessments": "Patient assessments",
+      "caregiverStatistics": "Caregiver statistics",
+      "supervisoryVisit": "Supervisory visit",
+      "followUpTask": "Follow-up task"
+    },
+    "dateRange": {
+      "trigger": "Select date range",
+      "title": "Date range",
+      "subtitle": "Filter activity by when it happened",
+      "presetsLabel": "Presets",
+      "presets": {
+        "today": "Today",
+        "last7Days": "Last 7 days",
+        "last30Days": "Last 30 days",
+        "last90Days": "Last 90 days"
+      },
+      "customRange": "Custom range",
+      "from": "From",
+      "to": "To",
+      "bothDatesRequired": "Both dates are required",
+      "endBeforeStart": "End date must be after start date",
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "apply": "Apply"
+    },
+    "detail": {
+      "whatChanged": "What changed",
+      "actorAndOrigin": "Actor & origin",
+      "relatedRecords": "Related records",
+      "actor": "Actor",
+      "role": "Role",
+      "region": "Region",
+      "ipAddress": "IP address",
+      "device": "Device",
+      "origin": "Origin"
+    },
+    "export": {
+      "button": "Export",
+      "title": "Activity Log Export",
+      "subtitle": "Choose a date range (up to 7 days) and file format to export.",
+      "from": "From",
+      "to": "To",
+      "bothDatesRequired": "Both dates are required",
+      "endBeforeStart": "End date must be after start date",
+      "maxRangeExceeded": "Date range cannot exceed 7 days",
+      "formatLabel": "Format",
+      "formats": {
+        "pdf": "PDF",
+        "csv": "CSV"
+      },
+      "columns": {
+        "actor": "Actor",
+        "role": "Role",
+        "resource": "Resource",
+        "description": "Description",
+        "ipAddress": "IP address",
+        "device": "Device"
+      },
+      "cancel": "Cancel",
+      "submit": "Export",
+      "noResults": "No activity logs found for the selected date range.",
+      "error": "Something went wrong while exporting activity logs. Please try again.",
+      "success": "Activity logs exported successfully."
+    }
+  }
+}

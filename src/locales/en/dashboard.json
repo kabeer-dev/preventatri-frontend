@@ -1,0 +1,334 @@
+{
+  "dashboard": {
+    "message": "Welcome to dashboard",
+    "organizationInvitation": {
+      "joinedCode": "Joined",
+      "joinedTitle": "You've joined {{organizationName}}",
+      "joinedSubtitle": "The invitation has been accepted and you have been added to the organization.",
+      "invalidCode": "400",
+      "invalidTitle": "Invitation unavailable",
+      "goToDashboard": "Go to dashboard"
+    },
+    "sections": {
+      "rightNow": "Right now",
+      "asOf": "as of",
+      "trends": "Trends"
+    },
+    "stats": {
+      "viewAll": "View all"
+    },
+    "contactAdmin": "Contact Admin",
+    "contactMessage": "Message",
+    "contactMessagePlaceholder": "Type your message here...",
+    "sendMessage": "Send Message",
+    "adminDashboard": {
+      "cards": {
+        "openRedFlags": {
+          "title": "Red flags open",
+          "drill": "View alerts"
+        },
+        "slaAtRisk": {
+          "title": "SLA at risk",
+          "drill": "Open queue"
+        },
+        "pendingAssessments": {
+          "title": "Today's Assessments",
+          "drill": "View assessments"
+        },
+        "activePatients": {
+          "title": "Patients monitored",
+          "drill": "View all patients"
+        }
+      },
+      "flagsRaised": {
+        "title": "Flags raised",
+        "subtitle": "by day · {{range}}",
+        "chartLabel": "Flags raised per day, by tier",
+        "empty": "No flags raised in this period.",
+        "error": "Unable to load flags raised. Please try again.",
+        "tiers": {
+          "red": "Red",
+          "yellow": "Yellow",
+          "green": "Green"
+        }
+      },
+      "slaCompliance": {
+        "title": "SLA compliance",
+        "chartLabel": "Daily SLA compliance",
+        "noDailyData": "No daily data for this period.",
+        "noResolutions": "No resolutions",
+        "error": "Unable to load SLA compliance. Please try again."
+      },
+      "statistics": {
+        "presets": {
+          "last7Days": "Last 7 days",
+          "last30Days": "Last 30 days"
+        }
+      }
+    },
+    "nurseDashboard": {
+      "cards": {
+        "openAlerts": {
+          "title": "Open alerts",
+          "subtitle": "{{red}} red · {{yellow}} yellow",
+          "drill": "View open alerts"
+        },
+        "dueToday": {
+          "title": "Due today",
+          "subtitle": "{{followUps}} follow-ups · {{supervisoryVisits}} visits"
+        },
+        "myPatients": {
+          "title": "My patients",
+          "subtitle": "In your regions",
+          "drill": "View patients"
+        }
+      },
+      "needsMeNow": {
+        "title": "Needs me now",
+        "action": "All alerts",
+        "empty": "No open alerts on your patients.",
+        "error": "Unable to load alerts. Please try again."
+      },
+      "myDay": {
+        "title": "My day",
+        "empty": "Nothing scheduled for today.",
+        "error": "Unable to load your day. Please try again.",
+        "types": {
+          "followUp": "Follow-up",
+          "supervisoryVisit": "Visit"
+        }
+      },
+      "assessments": {
+        "title": "Assessments since yesterday",
+        "action": "Review submissions",
+        "submitted": "Submitted",
+        "missed": "Missed",
+        "skipped": "Skipped"
+      }
+    },
+    "caseManagerDashboard": {
+      "cards": {
+        "tasksAssignedToMe": {
+          "title": "Tasks assigned to me",
+          "subtitle": "{{followUps}} follow-ups · {{supervisoryVisits}} supervisory visits",
+          "drill": "Open follow-ups"
+        },
+        "myPatients": {
+          "title": "My patients",
+          "subtitle": "Assigned to you",
+          "drill": "View patients"
+        },
+        "assessmentRate": {
+          "title": "Assessment rate",
+          "subtitle": "Last 30 days · {{resolved}} resolved · {{skipped}} passed to admin",
+          "drill": "View alerts"
+        }
+      },
+      "checklistTasks": {
+        "title": "My checklist tasks",
+        "subtitle": "Upcoming follow-ups and supervisory visits · nearest due first",
+        "action": "All tasks",
+        "empty": "No upcoming checklist tasks.",
+        "error": "Couldn’t load your checklist tasks.",
+        "columns": {
+          "due": "Due",
+          "checklist": "Checklist",
+          "patient": "Patient",
+          "type": "Type",
+          "status": "Status"
+        },
+        "status": {
+          "overdue": "Overdue",
+          "dueToday": "Due today",
+          "pending": "Pending"
+        },
+        "types": {
+          "followUp": "Follow-up",
+          "supervisoryVisit": "Supervisory visit"
+        }
+      }
+    },
+    "dateRange": {
+      "trigger": "Reporting period",
+      "title": "Reporting period",
+      "subtitle": "Applies to the trend charts below",
+      "customRange": "Custom range",
+      "from": "From",
+      "to": "To",
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "apply": "Apply range",
+      "presets": "Preset periods",
+      "bothDatesRequired": "Pick both a start and an end date.",
+      "endBeforeStart": "The end date cannot fall before the start date.",
+      "tooLong": "Pick a range of up to {{days}} days."
+    },
+    "alertQueue": {
+      "title": "Needs attention now",
+      "subtitle": "Breached or at risk, every region",
+      "action": "Open queue",
+      "empty": "No open alerts right now."
+    },
+    "recentActivity": {
+      "title": "Recent activity",
+      "action": "Full log",
+      "empty": "No recent activity yet.",
+      "system": "System"
+    }
+  },
+  "orgUsers": {
+    "backToList": "Back to users & roles",
+    "archivedChip": "Archived",
+    "tabs": {
+      "all": "All",
+      "ariaLabel": "User role"
+    },
+    "roles": {
+      "nurse": "Nurses",
+      "case_manager": "Case managers",
+      "caregiver": "Caregivers"
+    },
+    "statuses": {
+      "ACTIVE": "Active",
+      "INACTIVE": "Inactive",
+      "LOCKED_OUT": "Locked out",
+      "HOLD": "Hold",
+      "ON_LEAVE": "On Leave",
+      "TERMINATED": "Terminated",
+      "REJECTED": "Rejected",
+      "ARCHIVED": "Archived"
+    },
+    "invitationStatuses": {
+      "PENDING_REVIEW": "Pending review",
+      "READY_TO_INVITE": "Ready to invite",
+      "INVITED": "Invited",
+      "EXPIRED": "Expired",
+      "ACCEPTED": "Accepted",
+      "DEACTIVATED": "Deactivated",
+      "CONFLICT": "Conflict"
+    },
+    "bulkInvite": {
+      "button": "Send invitations ({{count}})",
+      "title": "Send invitations",
+      "message": "Send an invitation email to the {{count}} selected people? Each of them will be able to set a password and sign in.",
+      "confirmLabel": "Send",
+      "cancelLabel": "Cancel",
+      "allSent_one": "Invitation sent",
+      "allSent_other": "{{count}} invitations sent",
+      "resultTitle": "Invitations sent",
+      "resultSummary": "{{sent}} sent, {{skipped}} skipped",
+      "skippedHeading": "Not invited",
+      "close": "Close",
+      "reasons": {
+        "NOT_FOUND": "Not found",
+        "ALREADY_ACCEPTED": "Already accepted an invitation",
+        "DEACTIVATED": "Not active",
+        "PLACEHOLDER_EMAIL": "No login email yet",
+        "INVALID_EMAIL": "Email is not valid",
+        "EMAIL_CONFLICT": "Open email exception on the HHA Sync page",
+        "INVITATION_STILL_ACTIVE": "An invitation is still active",
+        "SEND_FAILED": "The invitation could not be sent"
+      }
+    },
+    "table": {
+      "inviteButton": "Invite user",
+      "searchPlaceholder": "Search name, email",
+      "noRowsLabel": "No users found",
+      "headers": {
+        "name": "Name",
+        "role": "Role",
+        "added": "Added",
+        "status": "Status",
+        "invitation": "Invitation",
+        "source": "Source",
+        "action": "Action"
+      }
+    },
+    "invite": {
+      "title": "Invite a user",
+      "subtitle": "They receive an email invitation · every change is audit-logged",
+      "roleLabel": "Role · sets the fields below",
+      "roles": {
+        "nurse": "Nurse",
+        "case_manager": "Case manager",
+        "caregiver": "Caregiver"
+      },
+      "roleHints": {
+        "nurse": "Triages alerts and runs supervisory visits · licence and on-call fields required",
+        "case_manager": "Owns a patient caseload across regions · region assignment required",
+        "caregiver": "Delivers care in the home · assigned to patients, no region of their own"
+      }
+    },
+    "delete": {
+      "title": "Archive user",
+      "message": "Are you sure you want to archive {{name}}?",
+      "cancel": "Cancel",
+      "confirm": "Archive"
+    }
+  },
+  "superAdmin": {
+    "tabs": {
+      "ariaLabel": "Organization status",
+      "all": "All",
+      "pending": "Pending",
+      "active": "Active",
+      "suspended": "Suspended",
+      "rejected": "Rejected"
+    },
+    "statuses": {
+      "pending": "Pending",
+      "active": "Active",
+      "suspended": "Suspended",
+      "rejected": "Rejected"
+    },
+    "table": {
+      "searchPlaceholder": "Search organization, admin name, email",
+      "noRowsLabel": "No organizations found",
+      "headers": {
+        "organization": "Organization",
+        "admin": "Founding admin",
+        "status": "Status",
+        "created": "Created",
+        "reason": "Reason",
+        "actions": "Actions"
+      }
+    },
+    "actions": {
+      "approve": "Approve",
+      "reject": "Reject",
+      "suspend": "Suspend",
+      "reactivate": "Reactivate"
+    },
+    "dialog": {
+      "cancel": "Cancel",
+      "reasonLabel": "Reason (optional)",
+      "reasonPlaceholder": "Why is this being done? The organization can see it.",
+      "approve": {
+        "title": "Approve organization",
+        "message": "Approve {{name}}? Its founding admin will be able to sign in and use the platform.",
+        "confirm": "Approve"
+      },
+      "reactivate": {
+        "title": "Reactivate organization",
+        "message": "Reactivate {{name}}? Its users will be able to sign in again.",
+        "confirm": "Reactivate"
+      },
+      "reject": {
+        "title": "Reject organization",
+        "message": "Reject the signup of {{name}}? This cannot be undone from here.",
+        "confirm": "Reject"
+      },
+      "suspend": {
+        "title": "Suspend organization",
+        "message": "Suspend {{name}}? Its users will be blocked until you reactivate it.",
+        "confirm": "Suspend"
+      }
+    },
+    "toast": {
+      "approve": "Organization approved",
+      "reject": "Organization rejected",
+      "suspend": "Organization suspended",
+      "reactivate": "Organization reactivated"
+    }
+  }
+}
