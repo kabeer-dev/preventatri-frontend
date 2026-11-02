@@ -44,7 +44,7 @@ const nextConfig = {
 
   // The browser talks only to this host, so the auth cookie stays first-party.
   async rewrites() {
-    const backendUrl = process.env.NEXT_PUBLIC_SERVER_URL;
+    const backendUrl = process.env.BACKEND_URL;
 
     if (!backendUrl) return [];
 
