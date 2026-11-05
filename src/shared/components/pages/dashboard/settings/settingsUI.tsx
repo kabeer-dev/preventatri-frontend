@@ -10,6 +10,7 @@ import useSettingsSection from '@/shared/hooks/useSettingsSection';
 
 import ActiveDevicesCard from './activeDevicesCard';
 import EscalationSettingsCard from './escalationSettingsCard';
+import HhaCredentialsCard from './hhaCredentialsCard';
 import OrganizationSettingsCard from './organizationSettingsCard';
 import PasswordUpdateForm from './passwordUpdateForm';
 import PersonalDetailsForm from './personalDetailsForm';
@@ -79,6 +80,10 @@ const SettingsUI = () => {
               </CardContent>
             </Card>
           </>
+        )}
+
+        {section === SETTINGS_SECTION_KEYS.integrations && (
+          <HhaCredentialsCard />
         )}
       </Box>
     </Box>

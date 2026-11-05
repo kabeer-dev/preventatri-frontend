@@ -101,6 +101,7 @@ export const SETTINGS_SECTION_KEYS = {
   organization: 'organization',
   security: 'security',
   profile: 'profile',
+  integrations: 'integrations',
 } as const satisfies Record<string, SettingsSection>;
 
 // The settings page's side menu, in display order. Admin-only sections are
@@ -129,6 +130,11 @@ export const SETTINGS_SECTIONS: {
     value: SETTINGS_SECTION_KEYS.profile,
     labelKey: 'sections.profile',
     adminOnly: false,
+  },
+  {
+    value: SETTINGS_SECTION_KEYS.integrations,
+    labelKey: 'sections.integrations',
+    adminOnly: true,
   },
 ];
 

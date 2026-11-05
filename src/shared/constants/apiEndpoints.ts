@@ -208,6 +208,9 @@ export const API_ENDPOINTS = {
     GET_ESCALATION_POLICIES: () => '/organizations/escalation-policies',
     UPDATE_ESCALATION_POLICY: ({flag}: {flag: string}) =>
       `/organizations/escalation-policies/${flag}`,
+    GET_HHA_CREDENTIALS: () => '/organizations/hha-credentials',
+    SAVE_HHA_CREDENTIALS: () => '/organizations/hha-credentials',
+    DISCONNECT_HHA_CREDENTIALS: () => '/organizations/hha-credentials',
   },
   SUPER_ADMIN: {
     ORGANIZATIONS: () => '/super-admin/organizations',

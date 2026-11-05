@@ -12,6 +12,7 @@ import type {
   EscalationFlag,
   EscalationStepType,
   EscalationTtlUnit,
+  HhaCredentialsFormPayload,
   PasswordUpdateFormPayload,
   PersonalDetailsUpdateFormPayload,
   SettingsSection,
@@ -150,4 +151,41 @@ export interface EscalationFallbackRowProps {
 export interface EscalationNoResponseProps {
   index: number;
   nextStep: EscalationDraftStep | null;
+}
+
+// The organization's HHAeXchange connection. The secret and key never leave
+// the server, so only their presence is known here.
+export interface HhaCredentials {
+  isConnected: boolean;
+  appName: string | null;
+  lastVerifiedAt: string | null;
+  lastError: string | null;
+}
+
+export interface HhaCredentialsFormProps {
+  control: Control<HhaCredentialsFormPayload>;
+  canSubmit: boolean;
+  isSaving: boolean;
+  isReplacing: boolean;
+  onSubmit: (e: React.FormEvent) => void;
+  onCancel: () => void;
+}
+
+export interface HhaCredentialsCardUIProps {
+  credentials: HhaCredentials;
+  formProps: HhaCredentialsFormProps;
+  isFormOpen: boolean;
+  isDisconnectOpen: boolean;
+  isDisconnecting: boolean;
+  onReplace: () => void;
+  onDisconnectOpen: () => void;
+  onDisconnectCancel: () => void;
+  onDisconnectConfirm: () => void;
+}
+
+export interface DisconnectHhaDialogProps {
+  isOpen: boolean;
+  isPending: boolean;
+  onCancel: () => void;
+  onConfirm: () => void;
 }

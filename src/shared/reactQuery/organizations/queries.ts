@@ -58,5 +58,23 @@ export const useQueries = () => {
           toastConfig,
         },
       }),
+
+    useFetchHhaCredentials: ({
+      callBackFuncs,
+      enabled,
+      toastConfig,
+    }: UseQueryHandlerProps = {}) =>
+      useQueryHandler({
+        queryKey: ORGANIZATIONS.fetchHhaCredentials.queryKey,
+        endpoint: ORGANIZATIONS.fetchHhaCredentials.endpoint,
+        refetchConfig: {mode: REFETCH_MODES.STATIC},
+        enabled,
+        callbacks: {
+          ...callBackFuncs,
+        },
+        mergedToastConfig: {
+          toastConfig,
+        },
+      }),
   };
 };

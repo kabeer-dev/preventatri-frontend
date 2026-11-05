@@ -1,6 +1,7 @@
 import {z} from 'zod';
 
 import {
+  hhaCredentialsSchema,
   passwordUpdateSchema,
   personalDetailsSchema,
 } from '@/shared/schemas/settings';
@@ -11,6 +12,10 @@ export type PersonalDetailsUpdateFormPayload = z.infer<
 
 export type PasswordUpdateFormPayload = z.infer<
   ReturnType<typeof passwordUpdateSchema>
+>;
+
+export type HhaCredentialsFormPayload = z.infer<
+  ReturnType<typeof hhaCredentialsSchema>
 >;
 
 export interface OtpMethods {
@@ -72,7 +77,7 @@ export interface UpdateTimeZonePayload {
 }
 
 export type SettingsSection =
-  'escalation' | 'organization' | 'security' | 'profile';
+  'escalation' | 'organization' | 'security' | 'profile' | 'integrations';
 
 // Flag colours that escalate, each carrying its own policy. GREEN never
 // escalates, so it has none.

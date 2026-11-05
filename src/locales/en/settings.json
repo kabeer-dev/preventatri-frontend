@@ -4,7 +4,8 @@
     "escalation": "Escalation & SLA",
     "organization": "Organization",
     "security": "Security & data",
-    "profile": "Your profile"
+    "profile": "Your profile",
+    "integrations": "Integrations"
   },
   "settings": {
     "updateButtonText": "Update",
@@ -154,5 +155,37 @@
     "empty": "No escalation policy found for this flag colour.",
     "saveSuccess": "Escalation policy saved.",
     "saveError": "Couldn't save the escalation policy. Please try again."
+  },
+  "hhaConnectPrompt": {
+    "title": "Connect HHAeXchange",
+    "content": "Your organization has not connected HHAeXchange yet. Connect it in Settings to sync patients, caregivers and visits.",
+    "connect": "Go to Settings",
+    "notNow": "Not now"
+  },
+  "hhaCredentials": {
+    "heading": "HHAeXchange",
+    "subheading": "Connect your organization's HHAeXchange account to sync patients, caregivers and visits.",
+    "connected": "Connected",
+    "notConnected": "Not connected",
+    "appNameLabel": "App name: {{appName}}",
+    "lastChecked": "Last checked {{date}}",
+    "appName": "App name",
+    "appSecret": "App secret",
+    "appKey": "App key",
+    "appNamePlaceholder": "Enter the app name",
+    "appSecretPlaceholder": "Enter the app secret",
+    "appKeyPlaceholder": "Enter the app key",
+    "formHint": "We check these with HHAeXchange before saving. The secret and key are stored encrypted and never shown again.",
+    "connect": "Connect",
+    "saveReplacement": "Save credentials",
+    "cancel": "Cancel",
+    "replace": "Replace credentials",
+    "disconnect": "Disconnect",
+    "saveSuccess": "HHAeXchange connected.",
+    "saveError": "Couldn't connect HHAeXchange. Please try again.",
+    "disconnectSuccess": "HHAeXchange disconnected.",
+    "disconnectError": "Couldn't disconnect HHAeXchange. Please try again.",
+    "disconnectTitle": "Disconnect HHAeXchange?",
+    "disconnectContent": "Syncing stops until you connect again. The HHAeXchange pages are hidden for everyone but admins, who are asked to connect."
   }
 }

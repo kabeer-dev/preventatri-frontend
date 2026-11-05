@@ -61,7 +61,14 @@ const filterNavItemsByRole = <T extends FilterableNavItem>({
       ? item.roles.includes(userRole)
       : userRole !== SYSTEM_ROLES.superAdmin.value;
 
-    const isVisible = isAllowedForRole && (!item.requiresHha || isHhaEnabled);
+    // An admin sees the HHAeXchange items before the organization is
+    // connected: opening one asks them to connect.
+    const canSeeHha =
+      !item.requiresHha ||
+      isHhaEnabled ||
+      userRole === SYSTEM_ROLES.admin.value;
+
+    const isVisible = isAllowedForRole && canSeeHha;
 
     if (isVisible) acc.push(item);
 

@@ -602,6 +602,10 @@ export const ORGANIZATIONS = {
     queryKey: 'getOrganizationEscalationPolicies',
     endpoint: API_ENDPOINTS.ORGANIZATIONS.GET_ESCALATION_POLICIES(),
   },
+  fetchHhaCredentials: {
+    queryKey: 'getOrganizationHhaCredentials',
+    endpoint: API_ENDPOINTS.ORGANIZATIONS.GET_HHA_CREDENTIALS(),
+  },
 };
 
 export const SUPER_ADMIN = {

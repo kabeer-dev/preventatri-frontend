@@ -5,6 +5,7 @@ import {ReactNode, useEffect} from 'react';
 import {usePathname} from 'next/navigation';
 
 import GlobalLoader from '@/shared/components/common/loaders/GlobalLoader';
+import HhaConnectPrompt from '@/shared/components/pages/hhaConnectPrompt';
 import NotAuthorizedContent from '@/shared/components/pages/notAuthorized';
 import {SYSTEM_ROLES} from '@/shared/constants/common';
 import useGetLoggedInUser from '@/shared/hooks/useGetLoggedInUser';
@@ -31,8 +32,8 @@ const RoleGuard = ({children}: NodeChildrenProps): ReactNode => {
   // this visitor is the caregiver.
   const caregiverReplacement = getCaregiverReplacementPath({path: pathName});
 
-  // The HHAeXchange screens belong to one organization, so whether this
-  // visitor is in it has to be read.
+  // The HHAeXchange screens belong to organizations that connected their own
+  // HHAeXchange credentials, so whether this one did has to be read.
   const isHhaScreen = isHhaRoute({pathname: pathName});
 
   const {currentUser, isLoading, isLoggedIn} = useGetLoggedInUser({
@@ -46,8 +47,13 @@ const RoleGuard = ({children}: NodeChildrenProps): ReactNode => {
     isLoggedIn &&
     currentUser?.currentActiveOrganization?.hhaEnabled !== true;
 
+  // An admin can fix a missing connection, so they are asked to connect.
+  // Every other role cannot, and is not authorised.
+  const isAdmin = userRole === SYSTEM_ROLES.admin.value;
+  const shouldPromptToConnect = isHhaBlocked && isAdmin;
+
   const isUnauthorizedRoute =
-    isHhaBlocked ||
+    (isHhaBlocked && !isAdmin) ||
     (shouldCheckRoles && isLoggedIn && !allowedRoles.includes(userRole));
 
   // A caregiver who lands on a screen the redesign replaced is sent to its
@@ -73,6 +79,10 @@ const RoleGuard = ({children}: NodeChildrenProps): ReactNode => {
 
   if (isUnauthorizedRoute) {
     return <NotAuthorizedContent />;
+  }
+
+  if (shouldPromptToConnect) {
+    return <HhaConnectPrompt />;
   }
 
   return children;
