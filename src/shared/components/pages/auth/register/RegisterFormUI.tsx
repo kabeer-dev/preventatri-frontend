@@ -56,6 +56,12 @@ export default function RegisterFormUI({
             label={t('auth.timeZone')}
             options={TIME_ZONE_SELECT_OPTIONS}
           />
+          <Typography
+            variant='caption'
+            sx={{color: 'text.secondary', display: 'block', mt: 1}}
+          >
+            {t('auth.timeZoneHint')}
+          </Typography>
         </Box>
         <Box sx={{mb: 4}}>
           <RHFTextField
