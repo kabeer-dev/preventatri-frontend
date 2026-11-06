@@ -7,11 +7,18 @@ import {Control} from 'react-hook-form';
 
 import {AuthCard, AuthCardHeader} from '@/shared/components/common/auth';
 import RHFPasswordField from '@/shared/components/common/inputs/RHFPasswordField';
+import RHFSelectField from '@/shared/components/common/inputs/RHFSelectField';
 import RHFTextField from '@/shared/components/common/inputs/RHFTextField';
 import Link from '@/shared/components/common/localeLink';
 import {AUTH_ROUTES} from '@/shared/constants/paths';
+import {TIME_ZONE_OPTIONS} from '@/shared/constants/settings';
 import useTranslation from '@/shared/hooks/useTranslation';
 import {RegisterPayload} from '@/shared/types/auth';
+
+const TIME_ZONE_SELECT_OPTIONS = TIME_ZONE_OPTIONS.map((option) => ({
+  label: option.label,
+  value: option.key,
+}));
 
 interface RegisterFormUIProps {
   control: Control<RegisterPayload>;
@@ -40,6 +47,14 @@ export default function RegisterFormUI({
             label={t('auth.organizationName')}
             placeholder={t('auth.organizationNamePlaceholder')}
             autoFocus
+          />
+        </Box>
+        <Box sx={{mb: 4}}>
+          <RHFSelectField
+            name='timeZone'
+            control={control}
+            label={t('auth.timeZone')}
+            options={TIME_ZONE_SELECT_OPTIONS}
           />
         </Box>
         <Box sx={{mb: 4}}>

@@ -6,7 +6,10 @@ import {
   SETTINGS_SECTIONS,
   TIME_ZONE_OPTIONS,
 } from '@/shared/constants/settings';
+import type {useWorkingHoursEditor} from '@/shared/hooks/useWorkingHoursEditor';
 import type {
+  DayOfWeek,
+  DayWorkingHours,
   EscalationChannel,
   EscalationDraftStep,
   EscalationFlag,
@@ -16,7 +19,7 @@ import type {
   PasswordUpdateFormPayload,
   PersonalDetailsUpdateFormPayload,
   SettingsSection,
-  TimeZoneKey,
+  WorkingHours,
 } from '@/shared/types/settings';
 
 export interface PersonalDetailsFormUIProps {
@@ -57,10 +60,21 @@ export interface TimeZoneOptionRowProps {
   now: number;
 }
 
-export interface TimeZoneSelectProps {
-  value: TimeZoneKey | null;
-  now: number;
-  onChange: (value: TimeZoneKey) => void;
+export interface WorkingHoursCardProps {
+  editor: ReturnType<typeof useWorkingHoursEditor>;
+
+  /** The loaded working hours; the card renders only once they exist. */
+  hours: WorkingHours;
+
+  /** The organization's IANA time zone. */
+  zone: string | undefined;
+}
+
+export interface WorkingHoursDayRowProps {
+  day: DayOfWeek;
+  dayHours: DayWorkingHours;
+  isToday: boolean;
+  editor: ReturnType<typeof useWorkingHoursEditor>;
 }
 
 export interface SettingsNavProps {

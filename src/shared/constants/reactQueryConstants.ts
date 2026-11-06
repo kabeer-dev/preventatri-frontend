@@ -594,10 +594,6 @@ export const ORGANIZATIONS = {
     queryKey: 'getOrganizationWorkingHours',
     endpoint: API_ENDPOINTS.ORGANIZATIONS.GET_WORKING_HOURS(),
   },
-  fetchTimeZone: {
-    queryKey: 'getOrganizationTimeZone',
-    endpoint: API_ENDPOINTS.ORGANIZATIONS.GET_TIME_ZONE(),
-  },
   fetchEscalationPolicies: {
     queryKey: 'getOrganizationEscalationPolicies',
     endpoint: API_ENDPOINTS.ORGANIZATIONS.GET_ESCALATION_POLICIES(),

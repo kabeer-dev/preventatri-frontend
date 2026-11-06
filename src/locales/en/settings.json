@@ -57,7 +57,7 @@
   },
   "organizationSettings": {
     "heading": "Organization Settings",
-    "subheading": "Manage your organization's working hours and time zone",
+    "subheading": "Manage your organization's working hours",
     "closed": "Day off",
     "edit": "Edit",
     "save": "Save",
@@ -79,7 +79,7 @@
       "saturday": "Saturday",
       "sunday": "Sunday"
     },
-    "timeZoneSubheading": "Times across the organization are shown in this zone.",
+    "timeZoneSubheading": "Times across the organization are shown in this zone. It was set when the organization registered and cannot be changed.",
     "workingHoursSubheading": "The days and hours your team is on duty.",
     "discard": "Discard"
   },

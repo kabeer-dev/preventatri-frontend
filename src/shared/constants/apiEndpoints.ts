@@ -203,8 +203,6 @@ export const API_ENDPOINTS = {
   ORGANIZATIONS: {
     GET_WORKING_HOURS: () => '/organizations/working-hours',
     UPDATE_WORKING_HOURS: () => '/organizations/working-hours',
-    GET_TIME_ZONE: () => '/organizations/time-zone',
-    UPDATE_TIME_ZONE: () => '/organizations/time-zone',
     GET_ESCALATION_POLICIES: () => '/organizations/escalation-policies',
     UPDATE_ESCALATION_POLICY: ({flag}: {flag: string}) =>
       `/organizations/escalation-policies/${flag}`,

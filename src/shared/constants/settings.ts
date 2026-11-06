@@ -64,6 +64,18 @@ export const AVAILABLE_TIME_ZONES: Record<
 
 export const TIME_ZONE_OPTIONS = Object.values(AVAILABLE_TIME_ZONES);
 
+export const TIME_ZONE_KEYS = [
+  'EASTERN',
+  'CENTRAL',
+  'MOUNTAIN',
+  'PACIFIC',
+  'ALASKA',
+  'HAWAII',
+] as const satisfies readonly TimeZoneKey[];
+
+// What a new organization starts with on the register form.
+export const DEFAULT_TIME_ZONE_KEY: TimeZoneKey = 'EASTERN';
+
 export const OTP_METHOD_OPTIONS: {
   value: OtpMethodChoice;
   icon: string;

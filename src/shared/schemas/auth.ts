@@ -1,5 +1,6 @@
 import {z} from 'zod';
 
+import {TIME_ZONE_KEYS} from '@/shared/constants/settings';
 import {TranslateFunction} from '@/shared/types/common';
 
 import {
@@ -46,6 +47,9 @@ export const registerUserSchema = ({t}: {t: TranslateFunction}) => {
           limit: ORGANIZATION_NAME_MAX_LENGTH,
         })
       ),
+    timeZone: z.enum(TIME_ZONE_KEYS, {
+      error: t('authValidation.timeZoneRequired'),
+    }),
     ...personFields(t),
     phoneNo: commonFieldsSchema.phoneNo({
       fieldName: 'Phone No',

@@ -24,19 +24,6 @@ export const useMutations = () => {
         },
       }),
 
-    useUpdateTimeZoneMutation: () =>
-      useMutationHandler({
-        endpoint: ORGANIZATIONS_ENDPOINTS.UPDATE_TIME_ZONE(),
-        method: PATCH,
-        toastConfigAlways: {
-          error: {show: true},
-          success: {show: true},
-        },
-        queriesToChangeAlways: {
-          refetch: [ORGANIZATIONS.fetchTimeZone.queryKey],
-        },
-      }),
-
     useUpdateEscalationPolicyMutation: () =>
       useMutationHandler({
         endpoint: ({flag}: {flag: string}) =>

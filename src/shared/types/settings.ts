@@ -62,20 +62,6 @@ export type WorkingHoursStatus =
 export type TimeZoneKey =
   'EASTERN' | 'CENTRAL' | 'MOUNTAIN' | 'PACIFIC' | 'ALASKA' | 'HAWAII';
 
-export interface TimeZoneOption {
-  value: string;
-  label: string;
-  key: TimeZoneKey;
-}
-
-export interface OrganizationTimeZone {
-  timeZone: TimeZoneOption;
-}
-
-export interface UpdateTimeZonePayload {
-  timeZone: TimeZoneKey;
-}
-
 export type SettingsSection =
   'escalation' | 'organization' | 'security' | 'profile' | 'integrations';
 

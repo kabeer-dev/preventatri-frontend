@@ -23,24 +23,6 @@ export const useQueries = () => {
         },
       }),
 
-    useFetchTimeZone: ({
-      callBackFuncs,
-      enabled,
-      toastConfig,
-    }: UseQueryHandlerProps = {}) =>
-      useQueryHandler({
-        queryKey: ORGANIZATIONS.fetchTimeZone.queryKey,
-        endpoint: ORGANIZATIONS.fetchTimeZone.endpoint,
-        refetchConfig: {mode: REFETCH_MODES.STATIC},
-        enabled,
-        callbacks: {
-          ...callBackFuncs,
-        },
-        mergedToastConfig: {
-          toastConfig,
-        },
-      }),
-
     useFetchEscalationPolicies: ({
       callBackFuncs,
       enabled,

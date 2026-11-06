@@ -6,6 +6,7 @@ import {zodResolver} from '@hookform/resolvers/zod';
 import {useForm} from 'react-hook-form';
 
 import {AUTH_ROUTES} from '@/shared/constants/paths';
+import {DEFAULT_TIME_ZONE_KEY} from '@/shared/constants/settings';
 import useLocaleRouter from '@/shared/hooks/useLocaleRouter';
 import useTranslation from '@/shared/hooks/useTranslation';
 import {userMutations} from '@/shared/reactQuery';
@@ -31,6 +32,7 @@ export default function RegisterForm() {
     resolver: zodResolver(ct({constant: registerUserSchema})),
     defaultValues: {
       organizationName: '',
+      timeZone: DEFAULT_TIME_ZONE_KEY,
       firstName: '',
       lastName: '',
       email: '',
